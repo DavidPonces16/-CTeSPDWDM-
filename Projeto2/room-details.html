@@ -55,7 +55,7 @@
                     </ul>
                 </div>
             </div>
-            <a href="#" class="bk-btn">Booking Now</a>
+            <a href="#" class="bk-btn">Reserva Já</a>
         </div>
         <nav class="mainmenu mobile-menu">
             <ul>
@@ -89,6 +89,9 @@
 
     <!-- Header Section Begin -->
     <header class="header-section header-normal">
+        <div class="overlay" id="overlay">
+            <img src="img/loading.gif" alt="Loading..." class="loading-gif">
+        </div>
         <div class="top-nav">
             <div class="container">
                 <div class="row">
@@ -106,14 +109,14 @@
                                 <a href="#"><i class="fa fa-tripadvisor"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
-                            <a href="#" class="bk-btn">Booking Now</a>
+                            <a href="login.html" class="bk-btn">Reserva Já</a>
                             <div class="language-option">
                                 <img src="img/flag.jpg" alt="">
                                 <span>EN <i class="fa fa-angle-down"></i></span>
                                 <div class="flag-dropdown">
                                     <ul>
-                                        <li><a href="#">Zi</a></li>
-                                        <li><a href="#">Fr</a></li>
+                                        <li><a href="#">PT</a></li>
+                                        <li><a href="#">FR</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -305,30 +308,38 @@
                 <div class="col-lg-4">
                     <div class="room-booking">
                         <h3>Your Reservation</h3>
-                        <form action="#">
+                        <form method="post" action="./index.html" id="form-reserva">
                             <div class="check-date">
-                                <label for="date-in">Check In:</label>
-                                <input type="text" class="date-input" id="date-in">
-                                <i class="icon_calendar"></i>
+                              <label for="date-in">Check In:</label>
+                              <input type="text" class="date-input" id="date-in">
+                              <i class="icon_calendar"></i>
                             </div>
                             <div class="check-date">
-                                <label for="date-out">Check Out:</label>
-                                <input type="text" class="date-input" id="date-out">
-                                <i class="icon_calendar"></i>
+                              <label for="date-out">Check Out:</label>
+                              <input type="text" class="date-input" id="date-out">
+                              <i class="icon_calendar"></i>
                             </div>
                             <div class="select-option">
-                                <label for="guest">Guests:</label>
-                                <select id="guest">
-                                    <option value="">3 Adults</option>
-                                </select>
+                              <label for="guest">Convidados:</label>
+                              <select id="guest">
+                                <option value="">1 Adulto</option>
+                                <option value="">2 Adultos</option>
+                                <option value="">3 Adultos</option>
+                                <option value="">Adultos e Crianças</option>
+                              </select>
                             </div>
                             <div class="select-option">
-                                <label for="room">Room:</label>
-                                <select id="room">
-                                    <option value="">1 Room</option>
-                                </select>
+                              <label for="room">Quarto:</label>
+                              <select id="room">
+                                <option value="">1 Quarto</option>
+                                <option value="">2 Quartos</option>
+                              </select>
                             </div>
-                            <button type="submit">Check Availability</button>
+                            <div id="loading">
+                              <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                            <button type="click" type="button" id="verificar-disponibilidade-room-details">Verificar Disponibilidade</button>
+                            <img src="img/loading.gif" alt="Carregando" id="loading-icon" style="display: none;">
                         </form>
                     </div>
                 </div>
