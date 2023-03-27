@@ -559,6 +559,7 @@ ul, ol {
 .booking-form form .select-option {
 	margin-bottom: 15px;
 }
+
 .booking-form form .select-option label {
 	font-size: 14px;
 	color: #707079;
@@ -593,6 +594,27 @@ ul, ol {
 .booking-form form .select-option .nice-select .list {
 	margin-top: 0;
 	width: 100%;
+}
+.booking-form form .age {
+	position: relative;
+	margin-bottom: 15px;
+}
+.booking-form form .age label {
+	font-size: 14px;
+	color: #707079;
+	display: block;
+	margin-bottom: 10px;
+}
+.booking-form form .age input {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ebebeb;
+	border-radius: 2px;
+	font-size: 16px;
+	color: #19191a;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-left: 20px;
 }
 .booking-form form button {
 	display: block;
@@ -1445,6 +1467,27 @@ ul, ol {
 .room-booking form .check-date {
 	position: relative;
 	margin-bottom: 15px;
+}
+.room-booking form .age {
+	position: relative;
+	margin-bottom: 15px;
+}
+.room-booking form .age label {
+	font-size: 14px;
+	color: #707079;
+	display: block;
+	margin-bottom: 10px;
+}
+.room-booking form .age input {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ebebeb;
+	border-radius: 2px;
+	font-size: 16px;
+	color: #19191a;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-left: 20px;
 }
 .room-booking form .check-date label {
 	font-size: 14px;
