@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Lista Quartos - Admin</title>
+        <title>Detalhes Reservas - Admin</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="./css/stylesgraphs.css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/main.css" />
@@ -68,83 +68,50 @@
                     </div>
                 </nav>
             </div>
+
+
+            
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Lista Quartos</h1>
+                        <h1 class="mt-4">Detalhes de Reservas</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="dashboard.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Quartos</li>
+                            <li class="breadcrumb-item active">Reservas</li>
                         </ol>
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-table me-1"></i>
-                                Quartos
-                            </div>
-                            <table class="table table-dark">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Nome-Quarto</th>
-                                    <th scope="col">Tamanho</th>
-                                    <th scope="col">Capacidade</th>
-                                    <th scope="col">Serviços</th>
-                                    <th scope="col">Detalhes</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">1</th>
-                                    <td>Quarto Premium de King</td>
-                                    <td>10m</td>
-                                    <td>4 Pessoas</td>
-                                    <td>TV, Piscina/Jacuzzi,(etc)</td>
-                                    <td><a href="#"><button class="ver-mais">Ver Mais</button></a></td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">2</th>
-                                    <td>Quarto Deluxe</td>
-                                    <td>10m</td>
-                                    <td>3 Pessoas</td>
-                                    <td>TV, Piscina/Jacuzzi,(etc)</td>
-                                    <td><a href="#"><button class="ver-mais">Ver Mais</button></a></td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">3</th>
-                                    <td>Quarto Duplo</td>
-                                    <td>10m</td>
-                                    <td>2 Pessoas</td>
-                                    <td>TV, Piscina/Jacuzzi,(etc)</td>
-                                    <td><a href="#"><button class="ver-mais">Ver Mais</button></a></td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">4</th>
-                                    <td>Quarto Luxuoso</td>
-                                    <td>10m</td>
-                                    <td>5 Pessoas</td>
-                                    <td>TV, Piscina/Jacuzzi,(etc)</td>
-                                    <td><a href="#"><button class="ver-mais">Ver Mais</button></a></td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">5</th>
-                                    <td>Quarto With View</td>
-                                    <td>10m</td>
-                                    <td>2 Pessoas</td>
-                                    <td>TV, Piscina/Jacuzzi,(etc)</td>
-                                    <td><a href="#"><button class="ver-mais">Ver Mais</button></a></td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">6</th>
-                                    <td>Quarto Small View</td>
-                                    <td>10m</td>
-                                    <td>2 Pessoas</td>
-                                    <td>TV, Piscina/Jacuzzi,(etc)</td>
-                                    <td><a href="#"><button class="ver-mais">Ver Mais</button></a></td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                        </div>
                     </div>
+                    <section>
+                        <form method="post" action="./index.html">
+                            <div class="fields">
+                                <div class="field half">
+                                    <label for="username">Username</label>
+                                    <input type="text" name="username" id="username" required/>
+                                </div>
+                                <div class="field half">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" required/>
+                                    <div class="field">
+                                        <label for="age">Idade</label>
+                                        <div class="age">
+                                            <input type="text" class="age-person" id="age">
+                                            <i class="icon_calendar"></i>
+                                        </div>
+                                    </div>  
+                                    <div class="field half">
+                                        <label for="password">Quarto</label>
+                                        <input type="text" name="quarto" id="quarto" required/>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <li>Não tem conta? <a href="register.html">Registre-se aqui</a></li>
+                            <br>
+                            <ul class="actions">
+                                <li><a href="index.html" class="button primary">Registar</a></li>
+                            </ul>							  
+                        </form>
+                    </section>
+                    
                 </main>
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
@@ -160,6 +127,7 @@
                 </footer>
             </div>
         </div>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
