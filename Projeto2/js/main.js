@@ -144,3 +144,43 @@ form.addEventListener("submit", function (event) {
     event.preventDefault();
   }
 });
+
+//remoção de uma linha da tabela quartos ou reservas da parte de administração
+function removerLinha(botao) {
+  const linha = botao.parentNode.parentNode;
+  linha.parentNode.removeChild(linha);
+}
+
+// script de adicionar campos para a tabela
+// selecione o botão "Adicionar" no formulário e adicione um ouvinte de evento de clique
+var addButton = document.querySelector('#roomForm .button.primary');
+addButton.addEventListener('click', function(event) {
+  // previne o comportamento padrão do botão de envio do formulário
+  event.preventDefault();
+  
+  // obter os valores dos campos de entrada do formulário
+  var nomeQuarto = document.querySelector('#firstName').value;
+  var tamanho = document.querySelector('#lastName').value;
+  var capacidade = document.querySelector('#email').value;
+  var servicos = document.querySelector('#Idade').value;
+  
+  // selecionar a tabela na página roomList.html
+  var table = document.querySelector('#roomListTable');
+  
+  // criar uma nova linha da tabela e adicionar as células com os valores dos campos do formulário
+  var newRow = table.insertRow(-1);
+  var nomeQuartoCell = newRow.insertCell(0);
+  var tamanhoCell = newRow.insertCell(1);
+  var capacidadeCell = newRow.insertCell(2);
+  var servicosCell = newRow.insertCell(3);
+  nomeQuartoCell.innerHTML = nomeQuarto;
+  tamanhoCell.innerHTML = tamanho;
+  capacidadeCell.innerHTML = capacidade;
+  servicosCell.innerHTML = servicos;
+  
+  // limpar os valores dos campos do formulário
+  document.querySelector('#firstName').value = '';
+  document.querySelector('#lastName').value = '';
+  document.querySelector('#email').value = '';
+  document.querySelector('#Idade').value = '';
+});
