@@ -2408,3 +2408,19 @@ ul, ol {
 	z-index: 10000;
   }
   
+.loading img {
+    display: block;
+    margin: 0 auto;
+}
+
+.success-message {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: green;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	z-index: 999;
+  }
+  

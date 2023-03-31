@@ -97,16 +97,6 @@
   $("select").niceSelect();
 })(jQuery);
 
-//loading ao fazer verificação de disponibilidade de reserva (index.html)
-// document.getElementById("verificar-disponibilidade").addEventListener("click", function(event) {
-//     event.preventDefault(); // evita que a página seja recarregada ao clicar no botão
-//     var overlay = document.getElementById("overlay");
-//     overlay.style.display = "block";
-//     setTimeout(function(){
-//       overlay.style.display = "none";
-//       alert("Reserva concluída");
-//     }, 5000);
-// });
 
 //ao verificar a disponibilidade (index.html) ele envia pro login
 if (document.getElementById("verificar-disponibilidade")) {
@@ -151,7 +141,7 @@ function removerLinha(botao) {
   linha.parentNode.removeChild(linha);
 }
 
-// script de adicionar campos para a tabela
+// script de adicionar campos para a tabela quartos
 // selecione o botão "Adicionar" no formulário e adicione um ouvinte de evento de clique
 var addButton = document.querySelector('#roomForm .button.primary');
 addButton.addEventListener('click', function(event) {
@@ -184,3 +174,61 @@ addButton.addEventListener('click', function(event) {
   document.querySelector('#email').value = '';
   document.querySelector('#Idade').value = '';
 });
+
+
+
+// script de adicionar campos para a tabela reservas
+// selecione o botão "Adicionar" no formulário e adicione um ouvinte de evento de clique
+var addButton = document.querySelector('#reservationForm .button.primary');
+addButton.addEventListener('click', function(event) {
+  // previne o comportamento padrão do botão de envio do formulário
+  event.preventDefault();
+  
+  // obter os valores dos campos de entrada do formulário
+  var Nome = document.querySelector('#firstName').value;
+  var Apelido = document.querySelector('#lastName').value;
+  var Email = document.querySelector('#email').value;
+  var Idade = document.querySelector('#Idade').value;
+  var Quarto = document.querySelector('#quarto').value;
+  
+  // selecionar a tabela na página reservationLista.html
+  var table = document.querySelector('#reservationListTable');
+  
+  // criar uma nova linha da tabela e adicionar as células com os valores dos campos do formulário
+  var newRow = table.insertRow(-1);
+  var nomeCell = newRow.insertCell(0);
+  var apelidoCell = newRow.insertCell(1);
+  var emailCell = newRow.insertCell(2);
+  var idadeCell = newRow.insertCell(3);
+  var quartoCell = newRow.insertCell(4);
+  nomeCell.innerHTML = Nome;
+  apelidoCell.innerHTML = Apelido;
+  emailCell.innerHTML = Email;
+  idadeCell.innerHTML = Idade;
+  quartoCell.innerHTML = Quarto;
+  
+  // limpar os valores dos campos do formulário
+  document.querySelector('#firstName').value = '';
+  document.querySelector('#lastName').value = '';
+  document.querySelector('#email').value = '';
+  document.querySelector('#Idade').value = '';
+  document.querySelector('#Quarto').value = '';
+});
+
+
+//após clicar no botao adicionar (addReservation.html) será mostrado mensagem de sucesso
+const successMessageReservation = document.createElement('div');
+successMessageReservation.innerHTML = 'Quarto adicionado com sucesso!';
+successMessageReservation.classList.add('success-message');
+document.querySelector('body').appendChild(successMessageReservation);
+
+setTimeout(() => {
+  successMessageReservation.remove();
+}, 2000);
+
+
+//após clicar no botao adicionar (addRoom.html) será mostrado mensagem de sucesso
+
+
+
+//após clicar no botao adicionar (addReservation.html) será mostrado mensagem de sucesso

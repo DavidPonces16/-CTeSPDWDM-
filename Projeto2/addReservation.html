@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Adicionar Reserva - Hotela M'este</title>
+		<title>Adicionar Quarto - Hotela M'este</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="css/main.css" />
@@ -26,10 +26,10 @@
 					<!-- Content -->
 					<section>
 						<header class="main">
-							<h1>Adicionar Reserva
+							<h1>Adicionar Reserva</h1>
                             </h1>
 						</header>
-						<form method="post" action="./index.html">
+						<form method="post" action="./index.html" id="roomForm">
 							<div class="fields">
 								<div class="field half">
 									<label for="firstName">Nome</label>
@@ -49,24 +49,26 @@
 									<label for="password">Idade</label>
 									<input type="text" name="Idade" id="Idade"/>
 								</div>
-								<br>
-								<div class="field half">
-									<label for="password">Quarto</label>
-                                    <select id="guest">
+                                <div class="field-half">
+                                    <label for="quarto">Quarto</label>
+                                    <select id="quarto">
                                         <option value="">Quarto Premium de King</option>
                                         <option value="">Quarto Deluxe</option>
                                         <option value="">Quarto Duplo</option>
                                         <option value="">Quarto Luxuoso</option>
-                                        <option value="">Quarto Small View</option>
                                         <option value="">Quarto With View</option>
+                                        <option value="">Quarto Small View</option>
                                     </select>
-								</div>
+                                </div>
 							</div>
+                                <div id="loading">
+                                    <i class="fa fa-spinner fa-spin"></i>
+                                </div>
 							<br>
 							<ul class="actions">
-                                <li><a href="" class="button primary">Adicionar</a></li>
-								<li><a href="reservationList.html" class="button primary">Voltar</a></li>
-							  </ul>							  
+                                <li><a href="roomList.html" class="button primary" id="addButtonAdicionarReservation">Adicionar</a></li>
+                                <li><a href="reservationList.html" class="button primary">Voltar</a></li>
+							</ul>
 						</form>
 					</section>
 				</div>
