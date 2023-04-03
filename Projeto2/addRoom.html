@@ -14,6 +14,12 @@
 		<body>
 			<!-- seu código HTML aqui -->
 			<script src="js/login.js"></script>
+
+			<script>
+				function mostrarMensagem() {
+				  alert("Quarto adicionado com sucesso!");
+				}
+			</script>
 		  </body>
 		  
 
@@ -53,7 +59,7 @@
 							</div>
 							<br>
 							<ul class="actions">
-								<li><a href="roomList.html" class="button primary" id="addButtonAdicionarRoom">Adicionar</a></li>
+								<li><a onclick="mostrarMensagem()" href="roomList.html" class="button primary" id="addButtonAdicionarRoom">Adicionar</a></li>
 								<li><a href="roomList.html" class="button primary">Voltar</a></li>
 							</ul>							  
 						</form>

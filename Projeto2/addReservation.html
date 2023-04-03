@@ -13,6 +13,12 @@
 		<body>
 			<!-- seu código HTML aqui -->
 			<script src="js/login.js"></script>
+
+            <script>
+				function mostrarMensagem() {
+				  alert("Reserva adicionada com sucesso!");
+				}
+			</script>
 		  </body>
 		  
 
@@ -66,7 +72,7 @@
                                 </div>
 							<br>
 							<ul class="actions">
-                                <li><a href="roomList.html" class="button primary" id="addButtonAdicionarReservation">Adicionar</a></li>
+                                <li><a onclick="mostrarMensagem()" href="reservationList.html" class="button primary" id="addButtonAdicionarReservation">Adicionar</a></li>
                                 <li><a href="reservationList.html" class="button primary">Voltar</a></li>
 							</ul>
 						</form>
