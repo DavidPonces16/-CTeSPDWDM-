@@ -10,15 +10,24 @@
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="./css/stylesgraphs.css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/main.css" />
+         <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
 
         <script>
             function confirmarRemocao(botao) {
-                if (confirm("Deseja remover o cliente?")) {
+                if (confirm("Deseja remover o serviço?")) {
                   botao.parentElement.parentElement.remove();
-                  alert("Cliente removido!");
+                  alert("Serviço removido!");
                 }
                 else (confirm("Remoçao cancelada!"))
             }
@@ -86,69 +95,81 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Lista Clientes</h1>
+                        <h1 class="mt-4">Lista Serviços</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Clientes</li>
+                            <li class="breadcrumb-item active">Serviços</li>
                         </ol>
-                        
-                        <div><a href="addClient.html"><button class="adicinar" onclick="adicionarLinha(this)" style="float: right; margin-left: 10px;">Adicionar</button></a></div>
-                        <br>
-                        <br>
-                        <br>
 
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-table me-1"></i>
-                                Clientes
+                        <div><a href="addServices.html"><button class="adicinar" onclick="adicionarLinha(this)" style="float: right; margin-left: 10px;">Adicionar</button></a></div>
+                        
+                        <section class="services-section spad">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-6">
+                                        <a href="services.html">
+                                            <div class="service-item">
+                                                <i class="flaticon-036-parking"></i>
+                                                <h4>Trilha de Passadiços</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6">
+                                        <a href="services.html">
+                                            <div class="service-item">
+                                                <i class="flaticon-033-dinner"></i>
+                                                <h4>Serviços de Mesa</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6">
+                                        <a href="services.html">
+                                            <div class="service-item">
+                                                <i class="flaticon-026-bed"></i>
+                                                <h4>Babysitting</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6">
+                                        <a href="services.html">
+                                            <div class="service-item">
+                                                <i class="flaticon-024-towel"></i>
+                                                <h4>Lavandaria</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6">
+                                        <a href="services.html">
+                                            <div class="service-item">
+                                                <i class="flaticon-044-clock-1"></i>
+                                                <h4>Piscina e Jacuzzi</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6">
+                                        <a href="services.html">
+                                            <div class="service-item">
+                                                <i class="flaticon-012-cocktail"></i>
+                                                <h4>Bar & Drink</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                                    labore et dolore magna.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <section>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="/img/clientes/david.jpg" alt="" width="200" height="300"/></a>
-											<h3>David Ponces</h3>
-											<ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="img/clientes/gui.jpg" alt="" width="200" height="300"/></a>
-											<h3>Guilherme Soares</h3>											
-                                            <ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="img/clientes/tatty.jpg" alt="" width="200" height="300"/></a>
-											<h3>Tatiana Rodrigues</h3>
-											<ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-                                        <article>
-											<a href="#" class="image"><img src="img/clientes/lobo.jpg" alt="" width="200" height="300"/></a>
-											<h3>Pedro Santos</h3>
-											<ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-                                        <article>
-                                            <a href="#" class="image"><img src="img/clientes/tuna.jpg" alt="" width="200" height="300"/></a>
-                                            <h3>João António</h3>
-                                            <ul class="actions">
-                                                <li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-                                            </ul>
-                                        </article>
-									</div>
-								</section>
-                            </div>
-                        </div>
+                        </section>
+                        
                     </div>
                 </main>
                 <footer class="py-4 bg-light mt-auto">

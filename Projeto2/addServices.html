@@ -5,8 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="css/main.css" />
-		<link rel="stylesheet" href="css/style.css" />
-        <link href="css/stylesgraphs1.css" rel="stylesheet" />
+        <link href="./css/stylesgraphs1.css" rel="stylesheet" />
 	</head>
 	<body class="is-preload">
 
@@ -15,9 +14,9 @@
 			<!-- seu código HTML aqui -->
 			<script src="js/login.js"></script>
 
-			<script>
+            <script>
 				function mostrarMensagem() {
-				  alert("Funcionário adicionado com sucesso!");
+				  alert("Serviço adicionado com sucesso!");
 				}
 			</script>
 		  </body>
@@ -33,39 +32,34 @@
 					<!-- Content -->
 					<section>
 						<header class="main">
-							<h1>Adicionar Funcionário
+							<h1>Adicionar Serviço</h1>
                             </h1>
 						</header>
 						<form method="post" action="./index.html" id="roomForm">
 							<div class="fields">
 								<div class="field half">
-									<label for="firstName">Nome Funcionário</label>
-									<input type="text" name="firstName" id="firstName"/>
+									<label for="firstName">Nome</label>
+									<input type="text" name="nome" id="nome"/>
 								</div>
 								<div class="field half">
-									<label for="lastName">Email</label>
-									<input type="text" name="lastName" id="lastName"/>
-								</div>
-								<br>
-								<div class="field half">
-									<label for="password">Numero Tel.</label>
-									<input type="text" name="NumeroTel" id="NumeroTel"/>
+									<label for="lastName">Descrição</label>
+									<input type="text" name="descricao" id="descricao"/>
 								</div>
 								<br>
 								<div class="field half">
-									<label for="password">Morada</label>
-									<input type="text" name="Morada" id="Morada"/>
-								</div>
-								<div class="field half">
-									<label for="password">Idade</label>
-									<input type="text" name="Idade" id="Idade"/>
+									<label for="password">Fotografia</label>
+                                    <br>
+									<input type="file" name="foto" id="foto"/>
 								</div>
 							</div>
+                                <div id="loading">
+                                    <i class="fa fa-spinner fa-spin"></i>
+                                </div>
 							<br>
 							<ul class="actions">
-								<li><a onclick="mostrarMensagem()" href="workerList.html" class="button primary" id="addButtonAdicionarCliente">Adicionar</a></li>
-								<li><a href="workerList.html" class="button primary">Voltar</a></li>
-							</ul>							  
+                                <li><a onclick="mostrarMensagem()" href="serviceList.html" class="button primary" id="addButtonAdicionarService">Adicionar</a></li>
+                                <li><a href="serviceList.html" class="button primary">Voltar</a></li>
+							</ul>
 						</form>
 					</section>
 				</div>
@@ -106,10 +100,10 @@
                                     <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                     Lista Quartos
                                 </a>
-								<a class="nav-link" href="serviceList.html">
-									<div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-									Lista Serviços
-								</a>
+                                <a class="nav-link" href="serviceList.html">
+                                    <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                    Lista Serviços
+                                </a>
                             </div>
                         </div>
                         <div class="sb-sidenav-footer">
@@ -122,13 +116,13 @@
         </div>   
 
 		<!-- Scripts -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/browser.min.js"></script>
-		<script src="js/breakpoints.min.js"></script>
-		<script src="js/util.js"></script>
-		<script src="js/main.js"></script>
-		<script src="js/dashboard.js"></script>
-		<script src="js/login.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/dashboard.js"></script>
+		<script src="assets/js/login.js"></script>
 
 	</body>
 </html>

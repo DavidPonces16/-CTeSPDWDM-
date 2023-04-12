@@ -10,20 +10,17 @@
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="./css/stylesgraphs.css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/main.css" />
+         <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="css/owl.carousel.min2.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
-
-        <script>
-            function confirmarRemocao(botao) {
-                if (confirm("Deseja remover o cliente?")) {
-                  botao.parentElement.parentElement.remove();
-                  alert("Cliente removido!");
-                }
-                else (confirm("Remoçao cancelada!"))
-            }
-        </script>
-
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="index.html">Hotela M'este</a>
@@ -86,69 +83,12 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Lista Clientes</h1>
+                        <h1 class="mt-4">Serviços</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Clientes</li>
+                            <li class="breadcrumb-item active">Serviços</li>
                         </ol>
                         
-                        <div><a href="addClient.html"><button class="adicinar" onclick="adicionarLinha(this)" style="float: right; margin-left: 10px;">Adicionar</button></a></div>
-                        <br>
-                        <br>
-                        <br>
-
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-table me-1"></i>
-                                Clientes
-                            </div>
-                            <div class="card-body">
-                                <section>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="/img/clientes/david.jpg" alt="" width="200" height="300"/></a>
-											<h3>David Ponces</h3>
-											<ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="img/clientes/gui.jpg" alt="" width="200" height="300"/></a>
-											<h3>Guilherme Soares</h3>											
-                                            <ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="img/clientes/tatty.jpg" alt="" width="200" height="300"/></a>
-											<h3>Tatiana Rodrigues</h3>
-											<ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-                                        <article>
-											<a href="#" class="image"><img src="img/clientes/lobo.jpg" alt="" width="200" height="300"/></a>
-											<h3>Pedro Santos</h3>
-											<ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-                                        <article>
-                                            <a href="#" class="image"><img src="img/clientes/tuna.jpg" alt="" width="200" height="300"/></a>
-                                            <h3>João António</h3>
-                                            <ul class="actions">
-                                                <li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-                                            </ul>
-                                        </article>
-									</div>
-								</section>
-                            </div>
-                        </div>
                     </div>
                 </main>
                 <footer class="py-4 bg-light mt-auto">

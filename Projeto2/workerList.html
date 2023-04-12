@@ -13,6 +13,17 @@
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
+
+        <script>
+            function confirmarRemocao(botao) {
+                if (confirm("Deseja remover o empregado?")) {
+                  botao.parentElement.parentElement.remove();
+                  alert("Empregado removido!");
+                }
+                else (confirm("Remoçao cancelada!"))
+            }
+        </script>
+
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="index.html">Hotela M'este</a>
@@ -60,6 +71,10 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Lista Quartos
                             </a>
+                            <a class="nav-link" href="serviceList.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Lista Serviços
+                            </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
@@ -95,7 +110,7 @@
 											<h3>Joe Mama</h3>
 											<ul class="actions">
 												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <li><button class="remover" onclick="removerLinha(this)">Remover</button></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
 											</ul>
 										</article>
 										<article>
@@ -103,7 +118,7 @@
 											<h3>Mário Silva</h3>											
                                             <ul class="actions">
 												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <li><button class="remover" onclick="removerLinha(this)">Remover</button></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
 											</ul>
 										</article>
 										<article>
@@ -111,7 +126,7 @@
 											<h3>António Boda</h3>
 											<ul class="actions">
 												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <li><button class="remover" onclick="removerLinha(this)">Remover</button></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
 											</ul>
 										</article>
                                         <article>
@@ -119,7 +134,7 @@
 											<h3>Sofia Ferreira</h3>
 											<ul class="actions">
 												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <li><button class="remover" onclick="removerLinha(this)">Remover</button></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
 											</ul>
 										</article>
                                         <article>
@@ -127,7 +142,7 @@
                                             <h3>Sam David</h3>
                                             <ul class="actions">
                                                 <li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <li><button class="remover" onclick="removerLinha(this)">Remover</button></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
                                             </ul>
                                         </article>
                                         <article>
@@ -135,7 +150,7 @@
                                             <h3>Balbina Kherr</h3>
                                             <ul class="actions">
                                                 <li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <li><button class="remover" onclick="removerLinha(this)">Remover</button></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
                                             </ul>
                                         </article>
 									</div>

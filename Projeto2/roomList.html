@@ -13,6 +13,18 @@
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
+
+        <script>
+            function confirmarRemocao(botao) {
+                if (confirm("Deseja remover o quarto?")) {
+                  botao.parentElement.parentElement.remove();
+                  alert("Quarto removido!");
+                }
+                else (confirm("Remoçao cancelada!"))
+            }
+        </script>
+          
+
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="index.html">Hotela M'este</a>
@@ -60,6 +72,10 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Lista Quartos
                             </a>
+                            <a class="nav-link" href="serviceList.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Lista Serviços
+                            </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
@@ -105,7 +121,7 @@
                                     <td>4 Pessoas</td>
                                     <td>TV, Piscina/Jacuzzi,(etc)</td>
                                     <td><a href="roomDetails.html"><button class="ver-mais">Ver Mais</button></a></td>
-                                    <td><button class="remover" onclick="removerLinha(this)">Remover</button></td>
+                                    <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
                                   </tr>
                                   <tr>
                                     <th scope="row">2</th>
@@ -114,7 +130,7 @@
                                     <td>3 Pessoas</td>
                                     <td>TV, Piscina/Jacuzzi,(etc)</td>
                                     <td><a href="roomDetails.html"><button class="ver-mais">Ver Mais</button></a></td>
-                                    <td><button class="remover" onclick="removerLinha(this)">Remover</button></td>
+                                    <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
                                   </tr>
                                   <tr>
                                     <th scope="row">3</th>
@@ -123,7 +139,7 @@
                                     <td>2 Pessoas</td>
                                     <td>TV, Piscina/Jacuzzi,(etc)</td>
                                     <td><a href="roomDetails.html"><button class="ver-mais">Ver Mais</button></a></td>
-                                    <td><button class="remover" onclick="removerLinha(this)">Remover</button></td>
+                                    <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
                                   </tr>
                                   <tr>
                                     <th scope="row">4</th>
@@ -132,7 +148,7 @@
                                     <td>5 Pessoas</td>
                                     <td>TV, Piscina/Jacuzzi,(etc)</td>
                                     <td><a href="roomDetails.html"><button class="ver-mais">Ver Mais</button></a></td>
-                                    <td><button class="remover" onclick="removerLinha(this)">Remover</button></td>
+                                    <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
                                   </tr>
                                   <tr>
                                     <th scope="row">5</th>
@@ -141,7 +157,7 @@
                                     <td>2 Pessoas</td>
                                     <td>TV, Piscina/Jacuzzi,(etc)</td>
                                     <td><a href="roomDetails.html"><button class="ver-mais">Ver Mais</button></a></td>
-                                    <td><button class="remover" onclick="removerLinha(this)">Remover</button></td>
+                                    <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
                                   </tr>
                                   <tr>
                                     <th scope="row">6</th>
@@ -150,7 +166,7 @@
                                     <td>2 Pessoas</td>
                                     <td>TV, Piscina/Jacuzzi,(etc)</td>
                                     <td><a href="roomDetails.html"><button class="ver-mais">Ver Mais</button></a></td>
-                                    <td><button class="remover" onclick="removerLinha(this)">Remover</button></td>
+                                    <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
                                   </tr>
                                 </tbody>
                               </table>
