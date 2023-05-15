@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Horários - Admin</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link href="assets/css/stylesgraphs.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/main1.css" />
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+
+        <script>
+            function confirmarRemocao(botao) {
+                if (confirm("Deseja remover o empregado?")) {
+                  botao.parentElement.parentElement.remove();
+                  alert("Empregado removido!");
+                }
+                else (confirm("Remoçao cancelada!"))
+            }
+        </script>
+
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-3" href="index.html">Hotela M'este</a>
+            <!-- Navbar-->
+            <ul class="navbar-nav ms-auto me-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle me-5" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#!">Settings</a></li>
+                    <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                  </ul>
+                </li>
+            </ul>              
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Core</div>
+                            <a class="nav-link" href="index.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Homepage
+                            </a>
+                            <div class="sb-sidenav-menu-heading">Addons</div>
+                            <a class="nav-link" href="dashboard.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                Dashboard
+                            </a>
+                            <a class="nav-link" href="workerList.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Lista Funcionários
+                            </a>
+                            <a class="nav-link" href="clientList.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Lista Clientes
+                            </a>
+                            <a class="nav-link" href="reservationList.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Lista Reservas
+                            </a>    
+                            <a class="nav-link" href="roomList.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Lista Quartos
+                            </a>
+                            <a class="nav-link" href="serviceList.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Lista Serviços
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sb-sidenav-footer">
+                        <div class="small">Logado como:</div>
+                        Admin
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4">Lista Funcionários</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                            <li class="breadcrumb-item active">Funcionários</li>
+                        </ol>
+
+                        <div><a href="addWorker.html"><button class="adicinar" onclick="adicionarLinha(this)" style="float: right; margin-left: 10px;">Adicionar</button></a></div>
+                        <br>
+                        <br>
+                        <br>
+
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i>
+                                Funcionários
+                            </div>
+                            <div class="card-body">
+                                <section>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_29/2936201/190619-joe_murphy-byline2436.jpg" alt="" width="200" height="300"/></a>
+											<h3>Joe Mama</h3>
+											<ul class="actions">
+												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="https://i.cbc.ca/1.5366713.1574278300!/fileImage/httpImage/image.jpg_gen/derivatives/original_780/mario-silva.jpg" alt="" width="200" height="300"/></a>
+											<h3>Mário Silva</h3>											
+                                            <ul class="actions">
+												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="https://powerfulbrand.sabado.pt/wp-content/uploads/sites/52/2022/05/AntonioFuzetaPonte_Worten-min-450x450.jpg" alt="" width="200" height="300"/></a>
+											<h3>António Boda</h3>
+											<ul class="actions">
+												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+											</ul>
+										</article>
+                                        <article>
+											<a href="#" class="image"><img src="https://media.licdn.com/dms/image/C5103AQG1aEc1fHQT5A/profile-displayphoto-shrink_800_800/0/1517278383610?e=2147483647&v=beta&t=HDeLOPFGEWDuiCS-1astaVcX1kUq8dY-nt5rUJaI46Y" alt="" width="200" height="300"/></a>
+											<h3>Sofia Ferreira</h3>
+											<ul class="actions">
+												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+											</ul>
+										</article>
+                                        <article>
+                                            <a href="#" class="image"><img src="https://anthonygold.co.uk/wp-content/uploads/2020/03/Sam-David.png" alt="" width="200" height="300"/></a>
+                                            <h3>Sam David</h3>
+                                            <ul class="actions">
+                                                <li><a href="workerInfo.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+                                            </ul>
+                                        </article>
+                                        <article>
+                                            <a href="#" class="image"><img src="https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg" alt="" width="200" height="300"/></a>
+                                            <h3>Balbina Kherr</h3>
+                                            <ul class="actions">
+                                                <li><a href="workerInfo.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+                                            </ul>
+                                        </article>
+									</div>
+								</section>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Hotela M'este 2023</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
+    </body>
+</html>
