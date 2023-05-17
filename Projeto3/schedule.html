@@ -10,6 +10,14 @@
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="assets/css/stylesgraphs.css" rel="stylesheet" />
         <link rel="stylesheet" href="assets/css/main1.css" />
+        <link rel="stylesheet" href="assets/css3/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/css3/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/css3/flaticon.css" type="text/css">
+        <link rel="stylesheet" href="assets/css3/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/css3/barfiller.css" type="text/css">
+        <link rel="stylesheet" href="assets/css3/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="assets/css3/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/css3/style.css" type="text/css">
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
@@ -26,7 +34,7 @@
 
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.html">Hotela M'este</a>
+            <a class="navbar-brand ps-3" href="index.html">The GYM</a>
             <!-- Navbar-->
             <ul class="navbar-nav ms-auto me-0">
                 <li class="nav-item dropdown">
@@ -53,27 +61,31 @@
                             <div class="sb-sidenav-menu-heading">Addons</div>
                             <a class="nav-link" href="dashboard.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Dashboard
+                                Gestão
                             </a>
-                            <a class="nav-link" href="workerList.html">
+                            <a class="nav-link" href="modalidades.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Lista Funcionários
+                                Gestão Modalidades
                             </a>
-                            <a class="nav-link" href="clientList.html">
+                            <a class="nav-link" href="instrutorList.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Lista Clientes
+                                Gestão Instrutores
                             </a>
-                            <a class="nav-link" href="reservationList.html">
+                            <a class="nav-link" href=".html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Lista Reservas
-                            </a>    
-                            <a class="nav-link" href="roomList.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Lista Quartos
+                                Controlo Pagamentos
                             </a>
-                            <a class="nav-link" href="serviceList.html">
+                            <a class="nav-link" href="schedule.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Lista Serviços
+                                Agendamento Aulas
+                            </a>
+                            <a class="nav-link" href=".html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Listagem Equipamentos
+                            </a>
+                            <a class="nav-link" href=".html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Controlo Cliente
                             </a>
                         </div>
                     </div>
@@ -86,10 +98,10 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Lista Funcionários</h1>
+                        <h1 class="mt-4">Horário</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Funcionários</li>
+                            <li class="breadcrumb-item active">Horário</li>
                         </ol>
 
                         <div><a href="addWorker.html"><button class="adicinar" onclick="adicionarLinha(this)" style="float: right; margin-left: 10px;">Adicionar</button></a></div>
@@ -97,72 +109,170 @@
                         <br>
                         <br>
 
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-table me-1"></i>
-                                Funcionários
-                            </div>
+                        
                             <div class="card-body">
-                                <section>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_29/2936201/190619-joe_murphy-byline2436.jpg" alt="" width="200" height="300"/></a>
-											<h3>Joe Mama</h3>
-											<ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="https://i.cbc.ca/1.5366713.1574278300!/fileImage/httpImage/image.jpg_gen/derivatives/original_780/mario-silva.jpg" alt="" width="200" height="300"/></a>
-											<h3>Mário Silva</h3>											
-                                            <ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="https://powerfulbrand.sabado.pt/wp-content/uploads/sites/52/2022/05/AntonioFuzetaPonte_Worten-min-450x450.jpg" alt="" width="200" height="300"/></a>
-											<h3>António Boda</h3>
-											<ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-                                        <article>
-											<a href="#" class="image"><img src="https://media.licdn.com/dms/image/C5103AQG1aEc1fHQT5A/profile-displayphoto-shrink_800_800/0/1517278383610?e=2147483647&v=beta&t=HDeLOPFGEWDuiCS-1astaVcX1kUq8dY-nt5rUJaI46Y" alt="" width="200" height="300"/></a>
-											<h3>Sofia Ferreira</h3>
-											<ul class="actions">
-												<li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-											</ul>
-										</article>
-                                        <article>
-                                            <a href="#" class="image"><img src="https://anthonygold.co.uk/wp-content/uploads/2020/03/Sam-David.png" alt="" width="200" height="300"/></a>
-                                            <h3>Sam David</h3>
-                                            <ul class="actions">
-                                                <li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-                                            </ul>
-                                        </article>
-                                        <article>
-                                            <a href="#" class="image"><img src="https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg" alt="" width="200" height="300"/></a>
-                                            <h3>Balbina Kherr</h3>
-                                            <ul class="actions">
-                                                <li><a href="workerInfo.html" class="button">Ver mais</a></li>
-                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
-                                            </ul>
-                                        </article>
-									</div>
-								</section>
+                                <section class="class-timetable-section spad">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="section-title">
+                                                    <span>Find Your Time</span>
+                                                    <h2>Find Your Time</h2>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="table-controls">
+                                                    <ul>
+                                                        <li class="active" data-tsfilter="all">All event</li>
+                                                        <li data-tsfilter="fitness">Fitness tips</li>
+                                                        <li data-tsfilter="motivation">Motivation</li>
+                                                        <li data-tsfilter="workout">Workout</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="class-timetable">
+                                                    <table>
+                                                        <thead>
+                                                            <tr>
+                                                                <th></th>
+                                                                <th>Monday</th>
+                                                                <th>Tuesday</th>
+                                                                <th>Wednesday</th>
+                                                                <th>Thursday</th>
+                                                                <th>Friday</th>
+                                                                <th>Saturday</th>
+                                                                <th>Sunday</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="class-time">6.00am - 8.00am</td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
+                                                                    <h5>WEIGHT LOOSE</h5>
+                                                                    <span>RLefew D. Loee</span>
+                                                                </td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="fitness">
+                                                                    <h5>Cardio</h5>
+                                                                    <span>RLefew D. Loee</span>
+                                                                </td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
+                                                                    <h5>Yoga</h5>
+                                                                    <span>Keaf Shen</span>
+                                                                </td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="fitness">
+                                                                    <h5>Fitness</h5>
+                                                                    <span>Kimberly Stone</span>
+                                                                </td>
+                                                                <td class="dark-bg blank-td"></td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="motivation">
+                                                                    <h5>Boxing</h5>
+                                                                    <span>Rachel Adam</span>
+                                                                </td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
+                                                                    <h5>Body Building</h5>
+                                                                    <span>Robert Cage</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="class-time">10.00am - 12.00am</td>
+                                                                <td class="blank-td"></td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
+                                                                    <h5>Fitness</h5>
+                                                                    <span>Kimberly Stone</span>
+                                                                </td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="workout">
+                                                                    <h5>WEIGHT LOOSE</h5>
+                                                                    <span>RLefew D. Loee</span>
+                                                                </td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="motivation">
+                                                                    <h5>Cardio</h5>
+                                                                    <span>RLefew D. Loee</span>
+                                                                </td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="workout">
+                                                                    <h5>Body Building</h5>
+                                                                    <span>Robert Cage</span>
+                                                                </td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="motivation">
+                                                                    <h5>Karate</h5>
+                                                                    <span>Donald Grey</span>
+                                                                </td>
+                                                                <td class="blank-td"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="class-time">5.00pm - 7.00pm</td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
+                                                                    <h5>Boxing</h5>
+                                                                    <span>Rachel Adam</span>
+                                                                </td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="motivation">
+                                                                    <h5>Karate</h5>
+                                                                    <span>Donald Grey</span>
+                                                                </td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
+                                                                    <h5>Body Building</h5>
+                                                                    <span>Robert Cage</span>
+                                                                </td>
+                                                                <td class="blank-td"></td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
+                                                                    <h5>Yoga</h5>
+                                                                    <span>Keaf Shen</span>
+                                                                </td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="motivation">
+                                                                    <h5>Cardio</h5>
+                                                                    <span>RLefew D. Loee</span>
+                                                                </td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
+                                                                    <h5>Fitness</h5>
+                                                                    <span>Kimberly Stone</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="class-time">7.00pm - 9.00pm</td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="motivation">
+                                                                    <h5>Cardio</h5>
+                                                                    <span>RLefew D. Loee</span>
+                                                                </td>
+                                                                <td class="dark-bg blank-td"></td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="fitness">
+                                                                    <h5>Boxing</h5>
+                                                                    <span>Rachel Adam</span>
+                                                                </td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="workout">
+                                                                    <h5>Yoga</h5>
+                                                                    <span>Keaf Shen</span>
+                                                                </td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="motivation">
+                                                                    <h5>Karate</h5>
+                                                                    <span>Donald Grey</span>
+                                                                </td>
+                                                                <td class="dark-bg hover-bg ts-meta" data-tsmeta="fitness">
+                                                                    <h5>Boxing</h5>
+                                                                    <span>Rachel Adam</span>
+                                                                </td>
+                                                                <td class="hover-bg ts-meta" data-tsmeta="workout">
+                                                                    <h5>WEIGHT LOOSE</h5>
+                                                                    <span>RLefew D. Loee</span>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Class Timetable Section End -->
                             </div>
-                        </div>
+                        
                     </div>
                 </main>
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Hotela M'este 2023</div>
+                            <div class="text-muted">Copyright &copy; The GYM 2023</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;

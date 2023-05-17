@@ -14,14 +14,14 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="assets/css1/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css1/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css1/flaticon.css" type="text/css">
-    <link rel="stylesheet" href="assets/css1/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css1/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="assets/css1/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="assets/css1/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css1/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css3/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css3/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css3/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="assets/css3/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css3/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="assets/css3/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="assets/css3/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css3/style.css" type="text/css">
 </head>
 
 <body>
@@ -30,74 +30,68 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Offcanvas Menu Section Begin -->
-    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper">
-        <div class="canvas-close">
-            <i class="fa fa-close"></i>
-        </div>
-        <div class="canvas-search search-switch">
-            <i class="fa fa-search"></i>
-        </div>
-        <nav class="canvas-menu mobile-menu">
-            <ul>
-                <li class="active"><a href="./index.html">HomePage</a></li>
-                <li><a href="./about-us.html">Sobre Nos</a></li>
-                <li><a href="./class-details.html">Aulas</a></li>
-                <li><a href="./services.html">Serviços</a></li>
-                <li><a href="./team.html">Nossa Equipa</a></li>
-                <li><a href="#">Paginas</a>
-                    <ul class="dropdown">
-                        <li><a href="./class-timetable.html">Classes timetable</a></li>
-                        <li><a href="./team.html">Our team</a></li>
-                        <li><a href="./gallery.html">Gallery</a></li>
-                        <li><a href="./blog.html">Our blog</a></li>
-                    </ul>
-                </li>
-                <li><a href="./contact.html">Contactos</a></li>
-                <li><a href="./dashboard.html">Admin</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- Offcanvas Menu Section End -->
-
-    <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="logo">
-                        <a href="./index.html">
-                            <img src="img/logo.png" alt="">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" href="index.html">GYM</a>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto me-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle me-5" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#!">Settings</a></li>
+                <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="login.html">Logout</a></li>
+              </ul>
+            </li>
+        </ul>              
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Core</div>
+                        <a class="nav-link" href="index.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Homepage
+                        </a>
+                        <div class="sb-sidenav-menu-heading">Addons</div>
+                        <a class="nav-link" href="dashboard.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                            Gestão
+                        </a>
+                        <a class="nav-link" href="modalidades.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Gestão Modalidades
+                        </a>
+                        <a class="nav-link" href="instrutorList.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Gestão Instrutores
+                        </a>
+                        <a class="nav-link" href=".html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Controlo Pagamentos
+                        </a>
+                        <a class="nav-link" href="schedule.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Agendamento Aulas
+                        </a>
+                        <a class="nav-link" href=".html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Listagem Equipamentos
+                        </a>
+                        <a class="nav-link" href=".html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Controlo Cliente
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <nav class="nav-menu">
-                        <ul>
-                            <li class="active"><a href="./index.html">HomePage</a></li>
-                            <li><a href="./about-us.html">Sobre Nos</a></li>
-                            <li><a href="./class-details.html">Aulas</a></li>
-                            <li><a href="./services.html">Serviços</a></li>
-                            <li><a href="./team.html">Nossa Equipa</a></li>
-                            <li><a href="#">Paginas</a>
-                                <ul class="dropdown">
-                                    <li><a href="./class-timetable.html">Classes timetable</a></li>
-                                    <li><a href="./team.html">Our team</a></li>
-                                    <li><a href="./gallery.html">Gallery</a></li>
-                                    <li><a href="./blog.html">Our blog</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./contact.html">Contactos</a></li>
-                            <li><a href="./dashboard.html">Admin</a></li>
-                        </ul>
-                    </nav>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Logado como:</div>
+                    Admin
                 </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header End -->
-    <p></p>
+            </nav>
 
     <!-- Class Timetable Section Begin -->
     <section class="class-timetable-section spad">
@@ -350,9 +344,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="copyright-text">
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | The GYM | 2023
-                        </p>
+                        <p><All rights reserved | The GYM></p>
                     </div>
                 </div>
             </div>
@@ -372,14 +364,14 @@
     <!-- Search model end -->
 
     <!-- Js Plugins -->
-    <script src="assets/js1/jquery-3.3.1.min.js"></script>
-    <script src="assets/js1/bootstrap.min.js"></script>
-    <script src="assets/js1/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js1/masonry.pkgd.min.js"></script>
-    <script src="assets/js1/jquery.barfiller.js"></script>
-    <script src="assets/js1/jquery.slicknav.js"></script>
-    <script src="assets/js1/owl.carousel.min.js"></script>
-    <script src="assets/js1/main.js"></script>
+    <script src="assets/js2/jquery-3.3.1.min.js"></script>
+    <script src="assets/js2/bootstrap.min.js"></script>
+    <script src="assets/js2/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js2/masonry.pkgd.min.js"></script>
+    <script src="assets/js2/jquery.barfiller.js"></script>
+    <script src="assets/js2/jquery.slicknav.js"></script>
+    <script src="assets/js2/owl.carousel.min.js"></script>
+    <script src="assets/js2/main.js"></script>
 
 
 
