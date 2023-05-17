@@ -6,35 +6,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Admin</title>
+        <title>Clientes - Admin</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="assets/css/stylesgraphs.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/main1.css" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
+
+        <script>
+            function confirmarRemocao(botao) {
+                if (confirm("Deseja remover o Instrutor?")) {
+                  botao.parentElement.parentElement.remove();
+                  alert("Instrutor removido!");
+                }
+                else (confirm("Remoçao cancelada!"))
+            }
+        </script>
+
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.html">The GYM</a>
-            <!-- Sidebar Toggle-->
-            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
-            <!-- Navbar Search-->
-            <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
-                <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
-                    <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
-                </div>
-            </form>
+            <a class="navbar-brand ps-3" href="index.html">GYM</a>
             <!-- Navbar-->
-            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <ul class="navbar-nav ms-auto me-0">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#!">Settings</a></li>
-                        <li><a class="dropdown-item" href="#!">Activity Log</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="login.html">Logout</a></li>
-                    </ul>
+                  <a class="nav-link dropdown-toggle me-5" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#!">Settings</a></li>
+                    <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                  </ul>
                 </li>
-            </ul>
+            </ul>              
         </nav>
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
@@ -82,29 +86,51 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4" style="color: white;">Gestão</h1>
+                        <h1 class="mt-4">Lista Cliente</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item"><a href="gestao.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active" style="color: white;">Gestão</li>
+                            <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                            <li class="breadcrumb-item active">Cliente</li>
                         </ol>
+
+                        <div><a href="addClient.html"><button class="adicinar" onclick="adicionarLinha(this)" style="float: right; margin-left: 10px;">Adicionar</button></a></div>
+                        <br>
+                        <br>
+                        <br>
+
                         <div class="card mb-4">
                             <div class="card-header">
-                                <i class="fas fa-chart-area me-1"></i>
-                                Clientes Durante os Anos
+                                <i class="fas fa-table me-1"></i>
+                                Clientes
                             </div>
-                            <div class="card-body"><canvas id="myAreaChart" width="100%" height="30"></canvas></div>
-                            <div class="card-footer small text-muted">Atualizado ontem às 11:59</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-bar me-1"></i>
-                                        Número de Aulas Mensais
-                                    </div>
-                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="50"></canvas></div>
-                                    <div class="card-footer small text-muted">Atualizado ontem às 11:59</div>
-                                </div>
+                            <div class="card-body">
+                                <section>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="https://img.freepik.com/free-photo/young-attractive-woman-exercising-gym_1303-22562.jpg" alt="" width="200" height="300"/></a>
+											<h3>Andreia Mendonsa</h3>
+											<ul class="actions">
+												<li><a href="ClientDetails.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="https://four.psbdigital.ca/wp-content/uploads/2020/11/Pain-and-Gain-1.jpg" alt="" width="200" height="300"/></a>
+											<h3>António Silva</h3>											
+                                            <ul class="actions">
+												<li><a href="ClientDetails.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="https://www.mensjournal.com/.image/t_share/MTk2MTM2ODM3MjU3MjQyMTE3/man-weight-lifting.jpg" alt="" width="200" height="300"/></a>
+											<h3>Thomas Ferreira</h3>
+											<ul class="actions">
+												<li><a href="ClientDetails.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+											</ul>
+										</article>
+									</div>
+								</section>
                             </div>
                         </div>
                     </div>
@@ -124,12 +150,8 @@
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="assets/js/scripts.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-        <script src="assets/demo/chart-area-demo.js"></script>
-        <script src="assets/demo/chart-bar-demo.js"></script>
-        <script src="assets/demo/chart-bar-demo1.js"></script>
-        <script src="assets/demo/chart-pie-demo.js"></script>
-        <script src="assets/js/datatables-simple-demo.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
     </body>
 </html>

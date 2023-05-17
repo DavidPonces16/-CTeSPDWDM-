@@ -71,7 +71,7 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Listagem Equipamentos
                             </a>
-                            <a class="nav-link" href="clientList.html">
+                            <a class="nav-link" href="clientDetails.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Controlo Cliente
                             </a>
@@ -86,13 +86,13 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Lista Instrutores</h1>
+                        <h1 class="mt-4">Lista Equipamentos</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Instrutores</li>
+                            <li class="breadcrumb-item active">Equipamento</li>
                         </ol>
 
-                        <div><a href="addInstrutor.html"><button class="adicinar" onclick="adicionarLinha(this)" style="float: right; margin-left: 10px;">Adicionar</button></a></div>
+                        <div><a href="addEquipment.html"><button class="adicinar" onclick="adicionarLinha(this)" style="float: right; margin-left: 10px;">Adicionar</button></a></div>
                         <br>
                         <br>
                         <br>
@@ -100,32 +100,40 @@
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
-                                Instrutor
+                                Equipamento
                             </div>
                             <div class="card-body">
                                 <section>
 									<div class="posts">
 										<article>
-											<a href="#" class="image"><img src="https://img.freepik.com/free-photo/young-attractive-woman-exercising-gym_1303-22562.jpg" alt="" width="200" height="300"/></a>
-											<h3>Angie Mendonsa</h3>
+											<a href="#" class="image"><img src="https://thumbs.nosto.com/quick/magento-1b90ba6c/7/4300/cab6c25ff5a5425d3cc0b1ece68ee3e35fcef01ea4a372ae5a2e7986e2cfdea0/A" alt="" width="200" height="300"/></a>
+											<h3>Passadeira de Corrida</h3>
 											<ul class="actions">
-												<li><a href="instrutorDetails.html" class="button">Ver mais</a></li>
+												<li><a href="equipmentDetails.html" class="button">Ver mais</a></li>
                                                 <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="https://four.psbdigital.ca/wp-content/uploads/2020/11/Pain-and-Gain-1.jpg" alt="" width="200" height="300"/></a>
-											<h3>Zach Silva</h3>											
+											<a href="#" class="image"><img src="https://www.gymcompany.pt/media/catalog/product/cache/da8f044e4d1d5fcf4775ba1e956798e7/s/3/s30_cadenza.jpg" alt="" width="200" height="300"/></a>
+											<h3>Bicicleta Spining</h3>											
                                             <ul class="actions">
-												<li><a href="instrutorDetails.html" class="button">Ver mais</a></li>
+												<li><a href="equipmentDetails.html" class="button">Ver mais</a></li>
                                                 <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="https://www.mensjournal.com/.image/t_share/MTk2MTM2ODM3MjU3MjQyMTE3/man-weight-lifting.jpg" alt="" width="200" height="300"/></a>
-											<h3>Thomas Rodrigues</h3>
+											<a href="#" class="image"><img src="https://thumbs.nosto.com/quick/magento-1b90ba6c/7/4098/5d5019c3d50732ad9ff0ea975db98a6497f47b3ab35bf8a0fb81361d314d5426/A" alt="" width="200" height="300"/></a>
+											<h3>Bicicleta Estática</h3>
 											<ul class="actions">
-												<li><a href="instrutorDetails.html" class="button">Ver mais</a></li>
+												<li><a href="equipmentDetails.html" class="button">Ver mais</a></li>
+                                                <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
+											</ul>
+										</article>
+                                        <article>
+											<a href="#" class="image"><img src="data:image/webp;base64,UklGRi4LAABXRUJQVlA4ICILAACwQQCdASqOANYAPkEcjEQioaEUeWW0KAQEsoQ4AMnfTf8r1z5E9I/33MXQ3PL2+XmX/Z71XfTN/e/UA/2/VHegB0x37n+kA00l31kyq1J5D/V/Zv0r0SXsg9ED9gDsCDIJr7qHXFBBkEiSen1RfezT1DkHCtVb6GXMthhqHN0mwUnLY5vwVimXwFNe4lugWD4tdLnN2ARHmaC9097Ep3Y3mFYw2qWHQiGxRlF2Tu6zA80azKg+0SXlVEYrmc5H0mMFw91TPS0PGkyrs9RiTv+m3lcC2ewJWwbz8PFndOoWj2En5678OwyzSABKgL4s8waD0i8aDXu06mt0hpENgsBnveQ6isZvKwZSAOqdwVgN7ocf3PD9S2KvWhUl0bsS784/WFMDpZni+5uapXA27Nzr1g25y1AweZVYFTJoj4UOKQMuyNJ7aV2An0v8yWY60uEUBr9bn/854fPcCNkWipddmt70K7R4X4tfeajB7zjNNql2EhX99tbjycCL/+KRLH5OUP+79ayh/lwY3cN0zI4ksfEcZ1THePM90zgp09VBznlTxhVH0nRg3T+C0/OaguPVtbJ0trUR30h0Sd3fipKVlPCysbHcTsGut1cCPvlkRGOq1YxEMexqoIpH0jEyxOh7f747bzlvgwAiezhO6VyFe3lTnGRfGZ68Mt77o2On7b8kx0l39Xe6SDNws35sUiP/RyTOZAAA/s5/MlQAAAAADfyFnRDEMCU8XQ7Vm253quPL5egbO016mQ2+7P8GD6Ptg3GRfIN8nh1fhkCBivef+TjB7yhz/FAKC77+0m7j/eviA6B8HsBiANPYNlfqwR6MYfWrcHnirUxYAdfcjeX8X0+yRq+7O8cYxX8vfKS4ugulUrCl5/uw0d8Tua7R1ZgGGyyDwvwnNUtWFMdUJPJw/HTXNf+ggze4QuFbt3aKUZ7iwjh5eXDAwoB7VzHS3cQj6y0+YxIwI3+YSdICFi24HP5QqJWVgaT0rchUTV++SJwXlbnzrlMHD5mSeu9rc9hopJ5RyHJ/Y8R7Hk6t4zCXmIQXsf2ShD46aAe0p3UWA8tL7iOgNr5e/z5vkZaMCgvm380F1X+v4sq/tDeGOMIP+yXyMeUbks3Eima8yYKyiUgeYbh4BX1lvhE0+auPE5dgOysdLawi0n3rJpUTob15O4T0st+QbU66NtZ5kcX++9Ez96kIr38gokauSk5srNTgHrFI8w+EuXy9w21oFQvtgoN3MLhyBJB6oUjKASvzRloDfvnzU0REpNTF/3Kfnl0I2gqdQjXkNPSfjNWJaErTQUYCkfC94AT7V6iYaZP1pc8lxp8x5d1uBBhtO96xyqeXcXMZM5FXc8aIXTnKGEVMd8sI3799p/JkCwcpI2F/JFZSyyeSb+kQNSprsagRgoKOe7+ye7pfI4M7U5KaE5/kbRWg39TG7AEjKEGgq7k8B/883j0f0WnAhzYvDXrWEpAHDK0+ofLpovy9CeC3Vi8bNyZtJypbt3ct811RTPcQ91m0r8HHH9Uisnm86YPEEsEnl8hfVeYxUlLMYcfXpFidUvo55TnFoxTfG/UgwLTgZBtsYYmYqkZALJb0pEoPWW8dn4cvAGJc3eIv3ewl9svgSLntOHFG6RaBgtRV5/SJ5xu+XsW/8/dAhjcblURpOixEfQpFwhw/e0W5Epz9KQsy8nboBFj9V8kiZKdUbFHxRGi1lSlQlsyaMp+pNma5B/JhF6I1J7Q3LJYsISoC+hw1pPEX60DCPW03yHbnlMplm106nXoM5aPp0MTqntAOpsAwx5bt3Ug1+KyTEHR8H0TTTSrxgmnEOyfQZTOabRtVQcnYh+jZk97Ec7sWfawJ37W3I0OC0DyzsBdSsImp2qbOvUU6C8lPZJlzBdCeFqQQzz+DyiUiTyBUlprzO/aDYi5lOotPeUrmM2yT1VxreIqzpb7118X9mIFhVZ3Dtj+f3kIcXX/igfn852Cpg7U6h/+jPtBQdsM6mjaaNm6wDQ97aQJ/m9D5bqf0ES7zYgBqSPfAPnmR/qsHbaF7zvf9ry5erpD5LydrIrhACqA/nPsAXZ5H0V+eQGb9zNl9wMRu5QtL6BwNUw8EmV1C37+A6Cj4t1hJJoNWGJAmR4XxPAz2obcYivKDyotvc0DRp2qCaWeLyP/Ln7tVh9MHSgScAWDbpVQGzZR44pt/at9Pd4akmWw88EiaEbo16Mjce9kC2Hknm+QoNganPLBlEqtpgHBiXM1r3AC8/F7uBYF30iPYWFL3Oa6p6zCt5BsdiktFLtvJfQGnK5JpNQhrPa3BA/slOkELzYUBEnTFSUBpGzRcKvO83tyhT8mzca1VlvFsPqM9P1cfGn/It13rNCrlbUbMV9Wewn/z8Nng6Ng7HBjl+iUwJbUNnijEvdpydGaboogtzRN7qg52aUx8FcQpDfkeLCUWjaOrhasfjwV+nMJK2Dl8tVr1/qJHfi/4Y3wDQ4SmfFIhAI5Tp22oicRJnSy/pcWUiREIlqeUnpNsWCPGiW2f2FzhV6K5HySw5t4MBM8pgYdGKz1Ck24v42gxgGKy8RzjJrrd/Hr+S5TOgpiPaN2FzfB9vANVMElyxEWa1MzYVkTUDgN77zxb1G4ableXv0BaTcSO6TcXIbo9U9wNGDFaKJCP+Y+VMBZJArGipaCZZ8BRkHfhYpsxk0zByL+qD3pmjiJ8ZTDyCJHbtxd5C81Hxn5EptWgHujIwdcBVJXO1T/U5K9wpapIfmxZi5wZLXlytq9C95yHEquGmeBuqzyL6z1kIYYFz8x3OWAXQPBloQTeTG8bLcJzfrSscnX8b9m79/BXm+Uxx5yw2bxbD2aFMHBUN2SEPNGFj9vug0jzuA0iPrR8YvbAcTeNNe2WzpfbgTdsrOv3asrszUxEm8/QRi3hqy4TOiWiYbuCULbwDh3SCKC9kgPX7pDpyyXNWKctZt99DuDPwPtOx/XqbkZtG75Zxw3Exn8KMY1QYSSEQY9Ty6LY/dvZibfHubsX9NUeT3iy1b/P4KmBhUzr165QSwQV5CaAefV4n9YvlV3n2EBJXyWgkN2Z7UaSPl/CjLiHhFXpupjQD9I3fuVCSotBfZyDcsAd+IAM32ay8TUkfIv6oj1AWgD+aHCsKfIp2wQ1FJpXCI6B3SSCe6xBNPNfcm28VN70A4ey2SGBC493Cwd13WDtSDj8Ue1MOts9gmvwJPHvWwX+K22rLazBgKBnpjI2XyWBQHi6IRsfnoaAlCjNIchaCAncDCLyQekpfGkvI8lvTto9FvP1BUMdFPlttyiihcxCPcXXJB3gDN30wbt9S3UWRHjUFze3trAnUZufF/fGGsmM+wYSRV+6nIyzunZIrVyD5djxO6EqnEu8VTONJAet2wGNMQbR5eWm+EfSA+XQ/r/ZRt074kNaewbSch+o5ys8PquPoGSLhcIKaSI0d6wi8JfQC7/egbWz4bCK1Z5DfVBKqBaP6qtfuNIOxoOO6WNGz387nGJ8f+GfQYxw0O1OzlLWziTyAcs7V7Ex8ArFMmFw9UNgA8Xje3PVqEdy62qu9HC7D5GMGFBAqasMQaheHA+p3AOaw00bDYhc+OZniC3T4gorJVf1GtOVIVU6oeoBBLZJyAm5oSHB+Qmdqd1jaS3NXDhDmuiNwUWpU0W9MEjOoON2Hcm3AN+gKHVJ6HTLJ8kBkLHk8QP/P1h+JFpKBG5RJMbf2x0xaO79rbe9blhv6cCe5EnZgBYbH1SoaE2aLIzk6qJDTabYcNyVaX+gzxc8jj7+laftLC1ul9rwUHxqI/MwEOXcAAA=" alt="" width="200" height="300"/></a>
+											<h3>Bola Pilates</h3>
+											<ul class="actions">
+												<li><a href="equipmentDetails.html" class="button">Ver mais</a></li>
                                                 <td><button class="remover" onclick="confirmarRemocao(this)">Remover</button></td>
 											</ul>
 										</article>
