@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase EmployeeFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d8b78aa-902e-4808-8570-7f012b773a32</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ced25b3-0aa0-490c-9828-dac96338cd6d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Portugal Calendar Data - Workdays.xlsx'</defaultValue>
+      <description></description>
+      <id>1ced25b3-0aa0-490c-9828-dac96338cd6d</id>
+      <masked>false</masked>
+      <name>CalendarDataFile</name>
+   </variable>
+</TestCaseEntity>
