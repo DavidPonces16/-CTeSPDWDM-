@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_TesteDavid_GCM-icons icon-more_horiz text_1b82e8</name>
+   <tag></tag>
+   <elementGuidId>8ab9d808-3826-4ec5-91c2-62f80f0d0be8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#l1_0-3_4-b11-more > i.GCM-icons.icon-more_horiz.text-neutral-6.fa-24.fa.fa-flag.fa-1x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='l1_0-3_4-b11-more']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0541134c-ff95-4777-a470-ff6bf0efcca5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>GCM-icons icon-more_horiz text-neutral-6 fa-24  fa fa-flag fa-1x</value>
+      <webElementGuid>12adc4f8-c747-43da-b3bf-950436450bff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;l1_0-3_4-b11-more&quot;)/i[@class=&quot;GCM-icons icon-more_horiz text-neutral-6 fa-24  fa fa-flag fa-1x&quot;]</value>
+      <webElementGuid>b782639e-22ce-47a2-a8af-e15139f0f1ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>3a228813-72e3-43a4-8e69-c09a81e67e53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>GCM-icons icon-more_horiz text-neutral-6 fa-24  fa fa-flag fa-1x</value>
+      <webElementGuid>4254d615-5664-4dbe-8d27-ac7d49e68597</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;l1_0-3_4-b11-more&quot;)/i[@class=&quot;GCM-icons icon-more_horiz text-neutral-6 fa-24  fa fa-flag fa-1x&quot;]</value>
+      <webElementGuid>495bbe2f-31ac-473e-83e5-580fd3599084</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='l1_0-3_4-b11-more']/i</value>
+      <webElementGuid>45eb7f36-3889-447a-bcae-dbb246b4ff5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[6]/div/div/div/div/i</value>
+      <webElementGuid>108d8990-1fd6-4886-8b4a-cc4b72f37165</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

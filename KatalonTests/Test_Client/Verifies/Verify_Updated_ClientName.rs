@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_Updated_ClientName</name>
+   <tag></tag>
+   <elementGuidId>8edf1422-b20a-478d-a535-8180f3936ec7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@value = 'Updated_David' and contains(@id, 'Input_ClientName')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Updated_David</value>
+      <webElementGuid>8aa1723f-673f-4a02-bad7-263f9e9d239b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Input_ClientName</value>
+      <webElementGuid>e70abbcc-89d0-4472-a541-00b68b114235</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

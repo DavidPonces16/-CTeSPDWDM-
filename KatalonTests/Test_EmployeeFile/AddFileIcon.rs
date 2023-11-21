@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AddFileIcon</name>
+   <tag></tag>
+   <elementGuidId>7a0ad817-ebea-48c9-a94b-203521c68f5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.GCM-icons.icon-add-converted.text-neutral-6.fa-24.fa.fa-flag.fa-1x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b8-b9-$b2']/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'add_icon')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>add_icon</value>
+      <webElementGuid>eac6d778-03f8-4f19-8a55-bdea636fce97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b8-b9-$b2']/i</value>
+      <webElementGuid>ba89a47f-bfa5-4feb-8d1f-bae15ac01f80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/div/div/div/div/div/i</value>
+      <webElementGuid>7c840d36-cac2-4d4a-8447-93decda6231e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

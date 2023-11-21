@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_OANDA</name>
+   <tag></tag>
+   <elementGuidId>7a83bd6d-bd33-4145-ac89-7cd546ca1696</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='l1-42_0-ListItem8']/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'OANDA' or . = 'OANDA') and contains(@id, 'ListItem8')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.bold.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OANDA</value>
+      <webElementGuid>2fa62134-f1b2-45bb-a206-a4e3c1b0b9b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ListItem8</value>
+      <webElementGuid>195e3b84-c37e-4dd1-ac04-1884fca87760</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='l1-42_0-ListItem8']/span</value>
+      <webElementGuid>2b3eaf07-3fbd-44be-a55b-b0e81cfeaee3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USt-FX Rate'])[2]/following::span[1]</value>
+      <webElementGuid>b9bf7f41-6f7f-4ca4-87cc-b5d41ee4c343</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[2]</value>
+      <webElementGuid>b0462fe8-96f2-413c-b79f-c074848f5e6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USt-FX Rate'])[3]/preceding::span[1]</value>
+      <webElementGuid>e0ff5de3-f8f1-4a67-9727-a076cdfec95e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Manager'])[1]/preceding::span[2]</value>
+      <webElementGuid>1cf4d19d-caad-4dc3-8846-51bf856228a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span</value>
+      <webElementGuid>f78cf341-2034-4e5f-8f30-6515f75f65e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'OANDA' or . = 'OANDA')]</value>
+      <webElementGuid>b09e9259-154f-4fb4-b5a2-de556bb5bb22</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

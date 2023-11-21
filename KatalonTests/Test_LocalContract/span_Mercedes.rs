@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Mercedes</name>
+   <tag></tag>
+   <elementGuidId>ed8210da-fa8b-4f3e-be30-49c912825b7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#l4-77_2-ListItem2 > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='l4-77_2-ListItem2']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>829a81bb-93a9-4977-b9fe-1888690041b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mercedes</value>
+      <webElementGuid>500a6eb1-278a-4ef4-8326-4a5acb089404</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;l4-77_2-ListItem2&quot;)/span[1]</value>
+      <webElementGuid>49bf1aa2-bf3c-4a67-996a-c65414e67c13</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='l4-77_2-ListItem2']/span</value>
+      <webElementGuid>1192b62f-266b-4f34-a7eb-9040e4f64a2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wico'])[1]/following::span[1]</value>
+      <webElementGuid>264186e2-9b90-42b5-ad36-5322d95a727c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ale Hop'])[2]/following::span[2]</value>
+      <webElementGuid>f8c6b968-f0ce-4c10-8669-6a4a433a96b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDP'])[1]/preceding::span[1]</value>
+      <webElementGuid>647f7727-e51b-486e-9302-39863ed85d8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deloitte'])[1]/preceding::span[2]</value>
+      <webElementGuid>dd8aec6a-64e4-4e1a-ab5d-763cd5bb2210</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mercedes']/parent::*</value>
+      <webElementGuid>0bd18bee-1f76-4f51-8539-3a71e14aae38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[3]/div[2]/div/div[3]/span</value>
+      <webElementGuid>926d4591-9061-4d5b-b072-aa3743b676f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Mercedes' or . = 'Mercedes')]</value>
+      <webElementGuid>77afc421-5eb4-4fd8-89f4-9248316dff99</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

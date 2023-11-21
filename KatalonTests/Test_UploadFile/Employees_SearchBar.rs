@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Employees_SearchBar</name>
+   <tag></tag>
+   <elementGuidId>23b2d5c9-6bd4-4dde-bea2-da4a6f14d017</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Input_Dummy_Search')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='Input_Dummy_Search']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Input_Dummy_Search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Input_Dummy_Search</value>
+      <webElementGuid>a975329a-d283-4cbc-97a3-0da0a33a2de6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='Input_Dummy_Search']</value>
+      <webElementGuid>bfec89fa-bcad-487f-be8d-d655692404a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b8-Input']/span/input</value>
+      <webElementGuid>77539391-9dd2-413d-b344-2a2b10867fe5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>872cc5dc-be15-455d-a94f-358ac714d34f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'search' and @placeholder = 'Search' and @id = 'Input_Dummy_Search']</value>
+      <webElementGuid>342b03fc-c2ef-4184-a83c-5e93f59504c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

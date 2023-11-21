@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_Updated_User_Email</name>
+   <tag></tag>
+   <elementGuidId>f5f75f52-260c-49f8-b637-e83ddf4e5885</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Input_ClientEmail') and @value = 'testenaomexerr@gmail.com']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Input_ClientEmail</value>
+      <webElementGuid>a74b5442-fb84-4564-9f3e-b7f8793b50ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>testenaomexerr@gmail.com</value>
+      <webElementGuid>4499c5be-9521-40ba-8edb-b02ba74959cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

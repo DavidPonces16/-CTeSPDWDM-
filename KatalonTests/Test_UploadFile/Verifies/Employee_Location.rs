@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Employee_Location</name>
+   <tag></tag>
+   <elementGuidId>5c3e9635-b72c-4f0c-8e92-eebda5a12a6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Content2') and (text() = 'Australia' or . = 'Australia')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Content2</value>
+      <webElementGuid>e054a60d-ddf6-496e-ab2b-75acf50567d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Australia</value>
+      <webElementGuid>a7394860-495a-49f4-aaef-4c588c7e2de6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

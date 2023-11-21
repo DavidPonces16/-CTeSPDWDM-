@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AddFileEmployeeOption</name>
+   <tag></tag>
+   <elementGuidId>6ee7ad59-ce3e-47f7-936c-fde3be18e537</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b8-b9-l2-44_2-$b3']/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'ImportType2') and (text() = 'Employee' or . = 'Employee')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ImportType2</value>
+      <webElementGuid>da9d3be3-8604-4d24-bd12-29935a30b1d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Employee</value>
+      <webElementGuid>01af1a7e-e767-41da-89a2-637456097342</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b8-b9-l2-44_2-$b3']/i</value>
+      <webElementGuid>470d420a-7c81-4c89-8800-d3d8500137bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[2]/div/i</value>
+      <webElementGuid>0f32b417-b112-41b3-99ff-1b88c50ab285</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Upload_Button</name>
+   <tag></tag>
+   <elementGuidId>ddbd1f31-7d5a-46cb-91ea-63a1e1c590a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Upload' or . = 'Upload') and contains(@id, 'Button_Import')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='b30-Button']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b30-Button > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload</value>
+      <webElementGuid>841a6544-e209-4c06-b862-4538c4671c6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Button_Import</value>
+      <webElementGuid>221946bf-b875-4515-8bd0-4d1e6fa4218b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='b30-Button']/span</value>
+      <webElementGuid>e61ce824-2df1-4ce5-a06a-f31ba228f5c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Sample File'])[1]/following::span[1]</value>
+      <webElementGuid>4a086870-952f-4846-82a0-d6cb2eb09055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use our sample document in order to make this process easier'])[1]/following::span[2]</value>
+      <webElementGuid>fa53adeb-54b1-4b86-8e2d-b365ef379e92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Upload']/parent::*</value>
+      <webElementGuid>3dcb7948-b9bc-4681-8e77-db8fab5d2960</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button/span</value>
+      <webElementGuid>e97abb1a-ef16-4d8a-bebd-0a32f536fc2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Upload' or . = 'Upload')]</value>
+      <webElementGuid>a5a41241-1bf5-40d6-9de6-6f724fdafe32</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

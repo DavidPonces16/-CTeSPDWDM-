@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AdFileEmployee_Calendar_DataOption</name>
+   <tag></tag>
+   <elementGuidId>8da92715-39a4-462f-8b3a-5161fee4bf2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b8-b9-l2-44_2-l2-47_5-ImportItem3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='b8-b9-l2-44_2-l2-47_5-ImportItem3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'ImportItem3') and (text() = 'Calendar Data' or . = 'Calendar Data')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ImportItem3</value>
+      <webElementGuid>c56cb2c9-426f-4f1a-9a8e-85c7c3fb1d17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Calendar Data</value>
+      <webElementGuid>bf476c93-24a8-4709-9194-83d96eb768f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='b8-b9-l2-44_2-l2-47_5-ImportItem3']</value>
+      <webElementGuid>f1f37f9e-6a8e-4edc-910d-2459341a4f46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='transitionContainer']/div/div[2]/div/div/div[6]/span</value>
+      <webElementGuid>0985f13f-0e76-465d-9c44-af5baf7c919d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Family Member'])[1]/following::span[1]</value>
+      <webElementGuid>501c87b1-a010-48c1-b6e0-d14ae634e351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assignments'])[1]/following::span[2]</value>
+      <webElementGuid>5616ce13-66c0-4502-9681-39c6059b8cf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'b8-b9-l2-44_2-l2-47_5-ImportItem3', '&quot;', ')')])[1]/preceding::span[1]</value>
+      <webElementGuid>afa30c2a-a0ec-499e-b1d2-f6e356a671fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/span</value>
+      <webElementGuid>c3d68e12-c1a1-4983-8971-e853ed95ad2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'b8-b9-l2-44_2-l2-47_5-ImportItem3' and (text() = 'Calendar Data' or . = 'Calendar Data')]</value>
+      <webElementGuid>4f0871b8-b27a-4c06-967f-b9d85da59696</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_Updated_User_FirstName</name>
+   <tag></tag>
+   <elementGuidId>5c03b594-56ac-4570-8b21-384a745db508</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Input_Firstname') and @value = 'Testee']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Input_Firstname</value>
+      <webElementGuid>96395b1e-5429-4c36-a2c0-e4d9f57c1df3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Testee</value>
+      <webElementGuid>3a89f756-d457-4ae5-a53d-23a6788880d4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

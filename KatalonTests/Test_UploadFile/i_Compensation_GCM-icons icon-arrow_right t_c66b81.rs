@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Compensation_GCM-icons icon-arrow_right t_c66b81</name>
+   <tag></tag>
+   <elementGuidId>dd99f1a2-872b-4710-9cd7-5731e8bc3f54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b8-b9-l2-36_1-$b3']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>e589d1bf-f047-4fc7-a268-3618bd9a6733</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>GCM-icons icon-arrow_right text-primary fa-24  fa fa-flag fa-1x</value>
+      <webElementGuid>9f229079-f532-44c2-b6c4-100893e8d95d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b8-b9-l2-36_1-$b3&quot;)/i[@class=&quot;GCM-icons icon-arrow_right text-primary fa-24  fa fa-flag fa-1x&quot;]</value>
+      <webElementGuid>b6607a6a-eaa1-49e7-9205-43393e9e05e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b8-b9-l2-36_1-$b3']/i</value>
+      <webElementGuid>cf7b1bd9-0c9e-4150-ac4a-3239737d3fbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/i</value>
+      <webElementGuid>25f7a733-fabe-42e4-b3da-a221f4d52045</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

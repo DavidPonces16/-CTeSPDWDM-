@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_of_GCM-icons icon-navigate_before text-ne_ee7db3</name>
+   <tag></tag>
+   <elementGuidId>eb474644-29b4-43b5-a89f-dfd51b604e1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b12-$b3']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.GCM-icons.icon-navigate_before.text-neutral-6.fa-24.font-bold.fa.fa-flag.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>644a2698-7327-4f02-9230-a02e7237a5b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>GCM-icons icon-navigate_before text-neutral-6 fa-24 font-bold fa fa-flag fa-1x</value>
+      <webElementGuid>8c445182-b5a2-4c55-96f5-750f47afd87a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b12-$b3&quot;)/i[@class=&quot;GCM-icons icon-navigate_before text-neutral-6 fa-24 font-bold fa fa-flag fa-1x&quot;]</value>
+      <webElementGuid>f67e8caa-e912-4fb3-b421-3cb66704fdea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b12-$b3']/i</value>
+      <webElementGuid>4f3239a3-1729-4e56-a78e-342df1d03134</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/div/div/i</value>
+      <webElementGuid>5cf223b5-12fa-4f95-bed7-9bbd779bbbeb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

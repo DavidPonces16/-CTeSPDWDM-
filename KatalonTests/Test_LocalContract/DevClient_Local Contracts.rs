@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DevClient_Local Contracts</name>
+   <tag></tag>
+   <elementGuidId>d18642f7-d2f4-46cb-bcd0-f3ee2f84e559</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b5-b1-l2-46_3-NavigationItemName_Expr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='b5-b1-l2-46_3-NavigationItemName_Expr']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'NavigationItemName_link') and (text() = 'Local Contracts' or . = 'Local Contracts')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>NavigationItemName_link</value>
+      <webElementGuid>e45f359f-e8c1-4c2f-81d7-2e82a3946d33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Local Contracts</value>
+      <webElementGuid>758bcee1-f591-4079-b310-01a4f3729835</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>NavigationItemName_link</value>
+      <webElementGuid>7610b451-8861-4d60-bf7f-b58e36c6be66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Local Contracts</value>
+      <webElementGuid>cd8a8f54-6ac8-479c-ad6a-e25a4162ecbe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='b5-b1-l2-46_3-NavigationItemName_Expr']</value>
+      <webElementGuid>35022a10-d76b-4094-9fc1-040f3c3b308f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='b5-b1-l2-46_3-NavigationItemName_link']/span</value>
+      <webElementGuid>35baf8a1-563f-4062-9d3a-5ac796f95561</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employees'])[1]/following::span[1]</value>
+      <webElementGuid>213ef848-df70-4c8b-936b-0bc91b9eb528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companies'])[1]/following::span[2]</value>
+      <webElementGuid>dd053244-26a4-4dea-86ca-1e4b6522f6b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assignments'])[1]/preceding::span[1]</value>
+      <webElementGuid>130a9641-5701-451f-a63e-92c112c5fd19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Travels'])[1]/preceding::span[2]</value>
+      <webElementGuid>7578439b-33a3-4028-8717-8e0aaa9542ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Local Contracts']/parent::*</value>
+      <webElementGuid>f3122ff8-34f8-4a94-aaed-b0aa61add737</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a/span</value>
+      <webElementGuid>2606341e-242f-41e2-8bc8-03877640b2ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'b5-b1-l2-46_3-NavigationItemName_Expr' and (text() = 'Local Contracts' or . = 'Local Contracts')]</value>
+      <webElementGuid>0f75178b-e341-4b15-8417-050e7750ba20</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

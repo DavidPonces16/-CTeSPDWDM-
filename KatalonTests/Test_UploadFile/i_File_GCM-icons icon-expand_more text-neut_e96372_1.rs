@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_File_GCM-icons icon-expand_more text-neut_e96372_1</name>
+   <tag></tag>
+   <elementGuidId>03e6117c-6f11-4b9e-9775-22890badf799</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='l1_0-51_1-b13-ArrowDetail2']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#l1_0-51_1-b13-ArrowDetail2 > i.GCM-icons.icon-expand_more.text-neutral-6.fa-24.fa.fa-flag.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b187afb8-9832-4b9b-a80c-7339fffb77e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>GCM-icons icon-expand_more text-neutral-6 fa-24  fa fa-flag fa-1x</value>
+      <webElementGuid>205c77b2-7240-43b8-81be-e500636e63dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;l1_0-51_1-b13-ArrowDetail2&quot;)/i[@class=&quot;GCM-icons icon-expand_more text-neutral-6 fa-24  fa fa-flag fa-1x&quot;]</value>
+      <webElementGuid>354d16a9-459f-4c4f-8cdb-6a08be8fbe80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='l1_0-51_1-b13-ArrowDetail2']/i</value>
+      <webElementGuid>766f0a29-0138-4369-b189-656401bd6f97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[9]/div/a/span/div/i</value>
+      <webElementGuid>1d4f4731-4a23-41da-baba-8bf4164fdd03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

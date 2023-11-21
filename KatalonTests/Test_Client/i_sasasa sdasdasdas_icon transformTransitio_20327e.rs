@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_sasasa sdasdasdas_icon transformTransitio_20327e</name>
+   <tag></tag>
+   <elementGuidId>5d40186e-97b0-4762-8d5e-f90d165af834</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b11-DropdownList_Cnt']/div[2]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'ListItem6') and (text() = 'sasasa sdasdasdas' or . = 'sasasa sdasdasdas')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ListItem6</value>
+      <webElementGuid>5beefc9e-2978-4020-afb1-d888db6d5f0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>sasasa sdasdasdas</value>
+      <webElementGuid>847f443b-3415-4c64-8bef-32b7056dd742</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b11-DropdownList_Cnt']/div[2]/i</value>
+      <webElementGuid>72f8645e-ea55-4bc0-b93a-31256353aa58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div/div[2]/div[2]/i</value>
+      <webElementGuid>dda1b700-8d3c-4aae-85cd-864389a919b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

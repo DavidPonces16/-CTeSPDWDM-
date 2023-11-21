@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Ale Hop</name>
+   <tag></tag>
+   <elementGuidId>a7c9c613-e03d-4c9b-a7c7-ec7d77db6abb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b30-DropdownList_Cnt > span.font-size-base.font-extra-bold.text-neutral-10.text-align-left.OSFillParent</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b30-DropdownList_Cnt']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8ccd7281-e28d-4681-873e-6243efe1f8e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>ef09aeb0-6a72-4ee5-82c5-f2db63070c57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>b98402e7-1aff-43b5-903f-c485ea53259b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>f9b53827-6396-4ef2-aaf5-4e867e4c81be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ceb18e86-d669-44e0-9df3-15a253da2195</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>dea7ed98-83cd-4941-a1e0-085e6c64e0ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>da298dd5-b09b-476d-973e-0491e27a7d69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>dcd1cf6d-415f-46b2-9f96-f7a5ad2cdc65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0ff3c84c-e79e-47d3-bb91-752db4940b1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>1bc3dc03-755a-4181-9a24-37c86fb4545c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>08b83157-67fe-404b-a988-4f50689a1c45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>067de22f-e4af-48e8-8888-d434f5b35d14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b5e6246f-6c89-44cb-80ca-f274e61d3f86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>7077d9f7-1d44-4ad5-8a5e-6a7c66fb5e78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>5d0e246b-5329-4449-90bb-29eef3701e17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>486ed9b5-2408-4f84-befb-5f262486782e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6cf936de-419b-4115-8162-6a6aeaafba37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>af1d2b49-65ee-4247-8cd8-c2f740cce69f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>2b61d9e3-7785-4b02-b961-6fcce0d9350c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>f98fcb5d-0a19-46e5-b32e-8d33ff05de05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6b8cd385-fd3e-490f-b52f-6d4e5e5361eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>8b29cc6a-7019-47a9-85d6-16a8c3af7ab4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>0854ce51-8598-4e65-8664-c280afed60e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>924e2ed0-59f6-4dc4-81db-33c1947c3eb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>57c7ef6a-bd5a-41d8-8a95-65d0082b4fc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>d1c68f26-b3a8-42ff-8f48-c8a502123993</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>57b646be-7947-4737-bcef-947bec04c650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>397f72d1-b6e4-4499-85b9-e11e427b0eb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f8fdb10a-fcc9-413b-9de6-8fe240179351</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>bd47cd80-22c3-47a0-a3ee-cf63350c2376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>199e67a3-d684-449b-aafe-6621342697df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>feec17cc-5080-4c72-b0b8-91c37a1836fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>42bb610a-45ed-473b-8d46-c4187ea47885</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>30bd29b7-76a5-4589-9e1c-aa5e7991f29e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>4a5db052-2f81-45ed-9667-377508262caa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>7c98d7d3-8fc7-471f-8588-45e7db0087a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a508801f-5f50-4089-ac09-a07ec43cd786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>1515ec9f-d24e-4537-bc86-29ab27d41192</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ale Hop</value>
+      <webElementGuid>2374f867-4c96-4fad-aa7d-2cd96112eb45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b30-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>9398dbbc-d7df-4bbc-a296-3ef52dffe309</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b30-DropdownList_Cnt']/span</value>
+      <webElementGuid>fb471912-662d-4586-b17d-389b5eeee254</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::span[1]</value>
+      <webElementGuid>7b58eb3c-b765-44b2-aefe-8142b86212c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Local Contract Company'])[1]/following::span[2]</value>
+      <webElementGuid>b25191a9-89e9-479c-b218-39a7554537ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ale Hop'])[2]/preceding::span[2]</value>
+      <webElementGuid>1ffea62e-df08-44e2-8962-ef66f56c411d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wico'])[1]/preceding::span[3]</value>
+      <webElementGuid>ec87bd78-7ae9-46b4-9b2e-c1cd4a200cd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ale Hop']/parent::*</value>
+      <webElementGuid>4f9ceab5-f56c-45f2-b3ac-269fbe2a9a1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/div/div[2]/span</value>
+      <webElementGuid>d634fcf3-bbfd-41e2-9bbf-5cd564a667c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ale Hop' or . = 'Ale Hop')]</value>
+      <webElementGuid>8c045e4c-9b8b-44b0-a809-5b15892b7653</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

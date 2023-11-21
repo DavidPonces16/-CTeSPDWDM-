@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Uploaded File_GCM-icons icon-delete_forev_e73486</name>
+   <tag></tag>
+   <elementGuidId>26283c14-77eb-4086-8d46-5864cbcac557</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b6-$b2']/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'b6-$b2')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.GCM-icons.icon-delete_forever.text-primary.fa-24.fa.fa-flag.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b6-$b2</value>
+      <webElementGuid>4859c858-ac58-4567-b905-d121a1805829</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b6-$b2']/i</value>
+      <webElementGuid>3a99e17a-28a0-4bae-98dd-2f1ad1fa0583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/i</value>
+      <webElementGuid>317c84e1-3f6f-49cb-bf2e-2053b110b7c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

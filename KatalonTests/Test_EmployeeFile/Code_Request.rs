@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Code_Request</name>
+   <tag></tag>
+   <elementGuidId>f09e912d-a804-472a-bd4b-a67f092c923d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.table-cell.text-left.content > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='idDiv_SAOTCS_Proofs']/div/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>afe13e51-7bc7-479e-8b33-76cea2f77267</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>text: display</value>
+      <webElementGuid>3d1ea873-bf16-401e-82bb-9190e754b385</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Texto +XXX XXXXXXX94‎</value>
+      <webElementGuid>7f34c20f-5606-46da-8501-a6121621adf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;idDiv_SAOTCS_Proofs&quot;)/div[@class=&quot;row tile&quot;]/div[@class=&quot;table&quot;]/div[@class=&quot;table-row&quot;]/div[@class=&quot;table-cell text-left content&quot;]/div[1]</value>
+      <webElementGuid>7dbd3fa1-b718-4d25-9a9f-f86742518c09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>548c2839-8f5a-43ba-817c-39ddeb5939e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>text: display</value>
+      <webElementGuid>48e0bca3-4e1e-4d8e-ab5e-a7778c6ce2b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Texto +XXX XXXXXXX94‎</value>
+      <webElementGuid>134d536e-8db5-41f2-b7aa-6b8ea7eeb3f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;idDiv_SAOTCS_Proofs&quot;)/div[@class=&quot;row tile&quot;]/div[@class=&quot;table&quot;]/div[@class=&quot;table-row&quot;]/div[@class=&quot;table-cell text-left content&quot;]/div[1]</value>
+      <webElementGuid>bea08a24-cd84-4e42-90bc-2554be2d62ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7c27d159-0e67-4e6f-93dd-826d540650e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>text: display</value>
+      <webElementGuid>09f826dc-8dcb-4dad-a250-1035085eb0fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Texto +XXX XXXXXXX94‎</value>
+      <webElementGuid>cc1ff82f-6bbe-4bc2-9333-39a1c8ae91b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;idDiv_SAOTCS_Proofs&quot;)/div[@class=&quot;row tile&quot;]/div[@class=&quot;table&quot;]/div[@class=&quot;table-row&quot;]/div[@class=&quot;table-cell text-left content&quot;]/div[1]</value>
+      <webElementGuid>39cae7c9-6bbf-48d5-a2ab-a27db50ed012</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='idDiv_SAOTCS_Proofs']/div/div/div/div[2]/div</value>
+      <webElementGuid>fb8867ac-10e2-49d8-bdb7-a554284a61a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmar a sua identidade'])[1]/following::div[9]</value>
+      <webElementGuid>ca1283d1-4a35-41b3-bccf-f8cae7edb2fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='dponces@deloitte.pt'])[1]/following::div[12]</value>
+      <webElementGuid>895e9f4d-6237-4cd1-a90f-77d2c7bdcab2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chamada +XXX XXXXXXX94‎'])[1]/preceding::div[3]</value>
+      <webElementGuid>4f994c82-0f02-4e44-ab9c-4053edc7bb4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mais informações'])[1]/preceding::div[8]</value>
+      <webElementGuid>6a57e649-0ebc-465f-8306-b3f973319d03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Texto +XXX XXXXXXX94‎']/parent::*</value>
+      <webElementGuid>a396f0c8-cb66-4628-a516-62587279dad9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>3c85a50e-a43b-43db-9b82-0fdb2dc6673c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Texto +XXX XXXXXXX94‎' or . = 'Texto +XXX XXXXXXX94‎')]</value>
+      <webElementGuid>3c493790-618c-48ef-be96-dc80b0168fb0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lc_CompanyDeloitte</name>
+   <tag></tag>
+   <elementGuidId>79cc0507-c691-44e1-8701-87ae7ea432cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'ListItem2') and (text() = 'Deloitte' or . = 'Deloitte')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ListItem2</value>
+      <webElementGuid>ab4dd614-9f99-4a76-9cee-dbfb565e11f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Deloitte</value>
+      <webElementGuid>4f432f68-7aba-4233-b66d-c96d1f7b2649</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ListItem2</value>
+      <webElementGuid>ebe8f1a2-aad3-4378-844e-4a084c33a34a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Deloitte</value>
+      <webElementGuid>a01f16cb-130f-4d25-94c4-c95a5f32f29e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

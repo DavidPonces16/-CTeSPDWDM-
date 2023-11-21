@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Employee_DeadLine</name>
+   <tag></tag>
+   <elementGuidId>3b0a2f8c-6a3c-49d3-ab94-4c00f7c0b584</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Content7') and (text() = '00:00' or . = '00:00')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Content7</value>
+      <webElementGuid>589dc1c0-0128-45de-98f1-49c8f16f6512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>00:00</value>
+      <webElementGuid>0ef1fba6-6f35-4359-b147-72d995bf2238</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

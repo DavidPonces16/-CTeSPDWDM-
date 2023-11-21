@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_Updated_User_LastName</name>
+   <tag></tag>
+   <elementGuidId>24be9c33-2dc4-4b02-b57e-9a13d190ad09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Input_LastName') and @value = 'NaoMexerr']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Input_LastName</value>
+      <webElementGuid>450bf99d-9e4c-4fcf-96c9-fdb51dc435ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>NaoMexerr</value>
+      <webElementGuid>ebd1a57a-3a50-4d6d-9b71-1d77494987bc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

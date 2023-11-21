@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Edit Client (1) (1)</name>
+   <tag></tag>
+   <elementGuidId>527b97bb-13cc-49d4-9ac2-0b3fbcc05da9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#l1_0-4_4-b11-Option > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='l1_0-4_4-b11-Option']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>12ce6606-c69a-48f0-b5cf-f4a0ab984965</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>830e6cf1-afab-4141-b41b-39b146581ec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit Client</value>
+      <webElementGuid>d8274767-4cba-4ea2-803f-d2639f4ba570</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;l1_0-4_4-b11-Option&quot;)/a[1]</value>
+      <webElementGuid>c9f311af-87c9-4cb4-8b99-ff5f896fb88a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='l1_0-4_4-b11-Option']/a</value>
+      <webElementGuid>88c59202-a45f-4e16-b7b8-b9a0600a82a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Edit Client')]</value>
+      <webElementGuid>94b673d3-8db4-4845-ad76-c6166a74f5b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New Client'])[1]/following::a[1]</value>
+      <webElementGuid>0207e96c-83b7-47e2-8f6b-2d947e5557c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feature to be developed'])[2]/following::a[1]</value>
+      <webElementGuid>b2059a96-5e50-4b31-9c60-75b9b434aba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'l1_0-4_4-b11-Option', '&quot;', ')/a[1]')])[1]/preceding::a[1]</value>
+      <webElementGuid>d4fd4bdd-d9c5-48b7-9cda-d8b82bf8b1db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit Client']/parent::*</value>
+      <webElementGuid>7347b7df-dfd4-4f64-8d52-3cff8ffd2c1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[12]</value>
+      <webElementGuid>9ae7ec68-a641-4d7b-a0a0-8fbbd6ce938c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a</value>
+      <webElementGuid>4f71d6c2-117d-4ff9-a750-7038cd35a73d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Edit Client' or . = 'Edit Client')]</value>
+      <webElementGuid>81f56a6c-a6ed-4420-bd5b-375ba96fccd9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

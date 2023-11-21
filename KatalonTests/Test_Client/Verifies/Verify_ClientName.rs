@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_ClientName</name>
+   <tag></tag>
+   <elementGuidId>caabd7f7-3539-4007-9371-a317c34d6304</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Input_ClientName') and @value = 'TesteDavid']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Input_ClientName</value>
+      <webElementGuid>54081e9d-6f56-420f-a039-9b6d591c8071</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>TesteDavid</value>
+      <webElementGuid>3f4a8a81-4be7-4b80-b7fa-d60fe91e9893</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

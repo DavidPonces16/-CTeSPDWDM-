@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_User_Email</name>
+   <tag></tag>
+   <elementGuidId>3b501b6b-53db-4813-9fc6-9b8013d2762a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@value = 'testenaomexer@gmail.com' and contains(@id, 'Input_ClientEmail')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>testenaomexer@gmail.com</value>
+      <webElementGuid>53d4bf18-56cd-4d5e-bac9-6c99ed521737</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Input_ClientEmail</value>
+      <webElementGuid>48e82430-5565-4e07-a53c-e8cd4ca0c514</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

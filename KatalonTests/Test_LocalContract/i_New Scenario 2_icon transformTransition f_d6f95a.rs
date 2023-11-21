@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_New Scenario 2_icon transformTransition f_d6f95a</name>
+   <tag></tag>
+   <elementGuidId>e8f609df-6ac2-4616-bea6-474f6aeb69b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b35-DropdownList_Cnt']/div[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>520d3774-4f62-4a73-9ae1-d99a963bcadd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon transformTransition fa fa-angle-down fa-2x</value>
+      <webElementGuid>cf17572f-f8d0-4df9-aa9c-6bdb0f0f4cb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b35-DropdownList_Cnt&quot;)/div[2]/i[@class=&quot;icon transformTransition fa fa-angle-down fa-2x&quot;]</value>
+      <webElementGuid>f4937c3c-b4a8-4eeb-8850-8483dee7b18f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b35-DropdownList_Cnt']/div[2]/i</value>
+      <webElementGuid>c0206e47-f429-4ab2-a1bf-f824698b753c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/div[2]/i</value>
+      <webElementGuid>57f5e0e9-78f6-4528-8f7f-5e241665efae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

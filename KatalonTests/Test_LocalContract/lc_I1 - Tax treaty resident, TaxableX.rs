@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lc_I1 - Tax treaty resident, TaxableX</name>
+   <tag></tag>
+   <elementGuidId>3b4db874-2bba-4a3b-8d3c-14ad5f81a8ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#l6-91_0-ListItem6 > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='l6-91_0-ListItem6']/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'I1 -  Tax treaty resident,  TaxableX' or . = 'I1 -  Tax treaty resident,  TaxableX') and contains(@id, 'ListItem6')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I1 -  Tax treaty resident,  TaxableX</value>
+      <webElementGuid>17ba68a4-c8d6-4e31-86af-e7a972732ced</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ListItem6</value>
+      <webElementGuid>4c37a5db-400e-491b-8c68-131bc089dc52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I1 -  Tax treaty resident,  TaxableX</value>
+      <webElementGuid>5ac8b891-6a17-484a-9172-02df5977d211</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ListItem6</value>
+      <webElementGuid>1c42b1ed-3322-4ff4-aa4e-2ef72b0e58a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='l6-91_0-ListItem6']/span</value>
+      <webElementGuid>74c18d72-55cb-47aa-9985-39b5134ef11e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::span[3]</value>
+      <webElementGuid>6d7a4b83-8149-422d-ae30-af0908084b99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Local Contract Tax Scenario'])[1]/following::span[4]</value>
+      <webElementGuid>151c718b-34dc-40b7-b1bf-9d45a0d9a26a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[3]/div[2]/div/div/span</value>
+      <webElementGuid>6443a47c-da45-4e9c-bf1b-f76348d06483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'I1 -  Tax treaty resident,  TaxableX' or . = 'I1 -  Tax treaty resident,  TaxableX')]</value>
+      <webElementGuid>1d2aaaf4-02f2-442c-9ca9-04d0a908005a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='l6-93_0-ListItem6']/span</value>
+      <webElementGuid>54509faa-5a14-4157-8a00-939e66ee6f03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='l6-90_0-ListItem6']/span</value>
+      <webElementGuid>383e7854-9ab9-487e-8665-7a25fd083b1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

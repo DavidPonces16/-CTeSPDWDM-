@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Employee_DeliveredOn</name>
+   <tag></tag>
+   <elementGuidId>3476cfc6-f3df-4dab-9f53-cd76c308098b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Content9') and (text() = '-' or . = '-')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Content9</value>
+      <webElementGuid>e7c5e690-0188-4f8f-86ab-40df459af53e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-</value>
+      <webElementGuid>589bac40-32c5-47c0-b8d6-25f0207f6cc6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CalendarType_DropDown</name>
+   <tag></tag>
+   <elementGuidId>ce642be7-8e1e-40de-8e43-df459e1f0940</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.transformTransition.fa.fa-angle-down.fa-2x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b28-DropdownList_Cnt']/div[2]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'DropdownList_Cnt')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>DropdownList_Cnt</value>
+      <webElementGuid>59334273-2d19-4d11-8dee-f86b3226295d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b28-DropdownList_Cnt']/div[2]/i</value>
+      <webElementGuid>248361b9-9b45-4fb3-a379-e02eb104b3d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/i</value>
+      <webElementGuid>df8c013f-072b-461c-ad39-ba55468fe668</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

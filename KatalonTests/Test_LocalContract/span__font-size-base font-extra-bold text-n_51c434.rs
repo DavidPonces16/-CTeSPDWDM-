@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__font-size-base font-extra-bold text-n_51c434</name>
+   <tag></tag>
+   <elementGuidId>8e744646-74f5-43cf-a0d1-b1c098c5f3ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b35-DropdownList_Cnt > span.font-size-base.font-extra-bold.text-neutral-10.text-align-left.OSFillParent</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b35-DropdownList_Cnt']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d2150a01-c527-47b3-bd24-edc0593339ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>60b48409-e266-42a1-9e8b-846c5f1a6d54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b35-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>bf16d9a3-307a-483b-ae14-4413a23b6b23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f3c9c60c-dfab-4edd-9c70-f7d3d8ce3110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>2c272a22-29e7-444f-a33f-b5ed7657dc2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b35-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>64de66d1-c728-47d1-b2a1-177144fa841e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e64469cd-ae3d-43e9-936c-29aaf1b62a7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>0a93d423-6e45-49d5-bdfe-c5b603e07ad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b35-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>adff2527-7888-490d-9776-be78272fd105</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1f4bf7b6-94c8-4e8c-9f93-c6cd9c974952</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent</value>
+      <webElementGuid>52c3ee34-9d7a-463a-bce5-62c34992e183</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b35-DropdownList_Cnt&quot;)/span[@class=&quot;font-size-base font-extra-bold text-neutral-10 text-align-left OSFillParent&quot;]</value>
+      <webElementGuid>0592dda7-8b36-4123-a746-adbf23deaf49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b35-DropdownList_Cnt']/span</value>
+      <webElementGuid>c4d9d3ad-738e-480a-823d-7b42e849d240</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/span</value>
+      <webElementGuid>377d3ba3-2533-4294-ab9f-9f36b21fd721</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

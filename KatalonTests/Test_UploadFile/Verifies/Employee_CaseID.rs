@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Employee_CaseID</name>
+   <tag></tag>
+   <elementGuidId>b5f456cc-d4b0-42ff-85d3-76b757597c45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Content') and (text() = 'RA_Employee_RC(2)' or . = 'RA_Employee_RC(2)')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Content</value>
+      <webElementGuid>c1d3d5a0-7b1b-48ad-b918-36f864343786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RA_Employee_RC(2)</value>
+      <webElementGuid>7eb35ea1-084d-4726-863e-35e1047ffca8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

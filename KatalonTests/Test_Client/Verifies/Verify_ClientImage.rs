@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_ClientImage</name>
+   <tag></tag>
+   <elementGuidId>3d8fd1a2-bb8e-468e-940e-eb5a586c4f24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Preview') and @src = 'https://gcm.ges-de-dev.deloitte.pt/ec29f004-9e41-422b-a7fe-6a3b7955c524']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Preview</value>
+      <webElementGuid>a4b264e0-54c6-4889-ab8a-85d7cb5d2a98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://gcm.ges-de-dev.deloitte.pt/ec29f004-9e41-422b-a7fe-6a3b7955c524</value>
+      <webElementGuid>a22927fb-70e2-434f-8cb0-d68e0061202a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

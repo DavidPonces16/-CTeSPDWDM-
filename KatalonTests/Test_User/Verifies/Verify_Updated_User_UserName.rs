@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_Updated_User_UserName</name>
+   <tag></tag>
+   <elementGuidId>e5ddabbe-4b6c-49f1-a263-6b9b53896f6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'Input_ClientName2') and @value = 'testenaomexerr']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Input_ClientName2</value>
+      <webElementGuid>e3113274-9b8e-4752-a659-b96804150605</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>testenaomexerr</value>
+      <webElementGuid>6e95dd7b-6dcd-4aa4-bc57-de2300c9a878</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
